@@ -3,3 +3,8 @@
 html {
   font-family: 'Poppins', sans-serif;
 }
+.dark-mode-button {
+  position: fixed;
+  right: 20px;
+  top: 40px;
+}
