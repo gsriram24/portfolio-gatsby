@@ -8,3 +8,12 @@ html {
   right: 20px;
   top: 40px;
 }
+html::-webkit-scrollbar,
+.left::-webkit-scrollbar {
+  display: none;
+}
+html,
+.left {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

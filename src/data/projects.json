@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "seefood",
+    "isFeatured": true,
+    "projectName": "SeeFood",
+    "summary": "An App built using Flutter and Tensorflow Lite to detect 10 different food classes.",
+    "description": "An application built using Flutter and Tensorflow Lite to classify 10 different types of food and show their respective recipes. An Image Classification Model (Mobilenet V2) trained using Tensorflow. Conversion of the model to Tensorflow Lite. A mobile application built using Flutter with the tflite library for offline inference",
+    "tags": [
+      {
+        "tagName": "Deep Learning",
+        "tagIcon": ""
+      },
+      {
+        "tagName": "Cross Platform App Development",
+        "tagIcon": ""
+      }
+    ],
+    "featuredTags": ["Deep Learning", "App Development"],
+    "techStack": [
+      {
+        "name": "Flutter",
+        "icon": ""
+      },
+      {
+        "name": "Tensorflow",
+        "icon": ""
+      },
+      {
+        "name": "Keras",
+        "icon": ""
+      }
+    ],
+    "images": [],
+    "testimonials": null,
+    "github": "https://github.com/sgcuber24/see_food",
+    "demo": null
+  }
+]

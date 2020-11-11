@@ -18,7 +18,7 @@ const Layout = ({ left, right }) => {
                 <div className="fixed bg-primary-dark lg:hidden">
                   <Header />
                 </div>
-                <div className="lg:fixed justify-between pt-16 pb-12 lg:h-screen flex flex-col left lg:w-1/2">
+                <div className="lg:fixed overflow-scroll justify-between pt-16 pb-12 lg:h-screen flex flex-col left lg:w-1/2">
                   {left}
                   <div className="hidden lg:block">
                     <Footer darkMode={darkMode} />

@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Web Design and Development",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "icon": "../images/skills/html.png"
+  },
+  {
+    "title": "Python",
+    "skills": ["Python 3", "Pandas", "Matplotlib", "Seaborn"],
+    "icon": "../images/skills/python.png"
+  },
+  {
+    "title": "Cross Platform App Development",
+    "skills": ["Dart", "Flutter", "React Native"],
+    "icon": "../images/skills/flutter.png"
+  },
+  {
+    "title": "Frontend Frameworks",
+    "skills": ["React", "Tailwind CSS", "Gatsby"],
+    "icon": "../images/skills/react.png"
+  },
+  {
+    "title": "Machine Learning and Deep Learning",
+    "skills": ["Scikit-Learn", "Tensorflow", "Keras", "Numpy"],
+    "icon": "../images/skills/tensorflow.png"
+  },
+  {
+    "title": "Backend Development Frameworks",
+    "skills": ["Node.js", "Express.js", "Mongoose"],
+    "icon": "../images/skills/node.png"
+  },
+  {
+    "title": "Database Management Systems",
+    "skills": ["MySQL", "MongoDB", "Firebase"],
+    "icon": "../images/skills/firebase.png"
+  }
+]
