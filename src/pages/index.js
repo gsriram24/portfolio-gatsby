@@ -11,25 +11,21 @@ const Home = () => {
       left={<IndexLeft />}
       right={
         <ThemeContext.Consumer>
-          {context => (
+          {({ darkMode }) => (
             <>
+              <div className={`text-primary-${darkMode ? 'light' : 'dark'}`}>
+                Right
+              </div>
               <div
-                className={`text-primary-${
-                  context.darkMode ? 'light' : 'dark'
+                className={`h-screen text-primary-${
+                  darkMode ? 'light' : 'dark'
                 }`}
               >
                 Right
               </div>
               <div
                 className={`h-screen text-primary-${
-                  context.darkMode ? 'light' : 'dark'
-                }`}
-              >
-                Right
-              </div>
-              <div
-                className={`h-screen text-primary-${
-                  context.darkMode ? 'light' : 'dark'
+                  darkMode ? 'light' : 'dark'
                 }`}
               >
                 Right

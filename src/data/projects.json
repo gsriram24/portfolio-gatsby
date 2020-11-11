@@ -30,9 +30,9 @@
         "icon": ""
       }
     ],
-    "images": [],
-    "testimonials": null,
+    "images": ["../images/projects/SeeFood/test.png"],
+    "testimonials": "",
     "github": "https://github.com/sgcuber24/see_food",
-    "demo": null
+    "demo": ""
   }
 ]
