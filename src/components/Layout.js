@@ -15,10 +15,12 @@ const Layout = ({ left, right }) => {
             <div className="container mx-auto relative">
               <DarkModeButton changeTheme={changeTheme} darkMode={darkMode} />
               <div className="flex flex-col w-full lg:flex-row">
-                <div className="fixed w-full bg-primary-dark lg:hidden">
-                  <Header />
+                <div
+                  className={`fixed w-full z-10 ${bgColor} transition duration-500 lg:hidden`}
+                >
+                  <Header darkMode={darkMode} />
                 </div>
-                <div className="lg:sticky top-0 lg:w-1/2 lg:h-screen overflow-scroll justify-between ml-4 md:ml-8 lg:ml-16 pt-16 pb-12 flex flex-col left">
+                <div className="lg:sticky top-0 lg:w-1/2 lg:h-screen overflow-scroll justify-between mx-4 md:ml-8 lg:ml-16 pt-16 pb-12 flex flex-col left">
                   {left}
                   <div className="hidden lg:block">
                     <Footer darkMode={darkMode} />

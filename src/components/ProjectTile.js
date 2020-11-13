@@ -5,14 +5,20 @@ const ProjectTile = ({ project, darkMode }) => {
   project = project.node;
   const textColor = darkMode ? 'light' : 'dark';
   const bgColor = !darkMode ? 'light' : 'dark';
+  const tileVariants = {
+    hidden: {},
+    hover: {
+      scale: 1.1,
+      transition: { duration: 0.2, ease: 'easeInOut' },
+    },
+  };
   return (
     <Link to={`/projects/${project.slug}`}>
       <motion.div
         className={`w-full project-tile flex flex-col justify-center h-48 bg-secondary-${bgColor} mb-2 px-8 lg:px-10 xl:px-12 text-primary-${textColor}`}
-        whileHover={{
-          scale: 1.1,
-          transition: { duration: 0.2, ease: 'easeInOut' },
-        }}
+        initial="hidden"
+        variants={tileVariants}
+        whileHover="hover"
       >
         <div className="flex">
           {project.featuredTags.map((tag, i) => (

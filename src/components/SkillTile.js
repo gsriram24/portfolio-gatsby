@@ -32,6 +32,7 @@ const SkillTile = ({ skill, darkMode }) => {
       initial="hidden"
       animate="visible"
       whileHover="hover"
+      whileTap="hover"
     >
       <div className="absolute h-full w-full flex flex-col px-8 py-8  justify-between top-0">
         <motion.div

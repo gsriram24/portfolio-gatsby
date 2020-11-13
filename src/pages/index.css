@@ -4,11 +4,7 @@ html {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
-.dark-mode-button {
-  position: fixed;
-  top: 64px;
-  right: 24px;
-}
+
 html::-webkit-scrollbar,
 .left::-webkit-scrollbar {
   display: none;

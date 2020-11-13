@@ -29,7 +29,7 @@ const SkillContainer = ({ darkMode }) => {
           <div className="skill-container flex flex-no-wrap sm:grid lg:overflow-visible overflow-x-scroll sm:grid-cols-2 gap-2">
             {data.allSkillsJson.edges.map((edge, i) => {
               return (
-                <div className="w-3/4 flex-none sm:w-full">
+                <div key={i} className="w-3/4 flex-none sm:w-full">
                   <SkillTile skill={edge} darkMode={darkMode} />
                 </div>
               );
