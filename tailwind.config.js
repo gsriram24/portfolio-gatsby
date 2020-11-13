@@ -6,6 +6,13 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      opacity: {
+        10: '.1',
+        20: '.2',
+      },
+      spacing: {
+        full: '100%',
+      },
       colors: {
         'primary-orange': '#FFBB66',
         'primary-blue': '#005AB4',

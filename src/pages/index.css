@@ -2,11 +2,12 @@
 
 html {
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 .dark-mode-button {
   position: fixed;
-  right: 20px;
-  top: 40px;
+  top: 64px;
+  right: 24px;
 }
 html::-webkit-scrollbar,
 .left::-webkit-scrollbar {
@@ -16,4 +17,32 @@ html,
 .left {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+@media only screen and (min-width: 1500px) {
+  .skill-name {
+    font-size: 24px;
+  }
+  .skill-item {
+    font-size: 16px;
+  }
+}
+.skill-container:hover .skill-tile {
+  opacity: 0.4;
+  transition: opacity 0.2s ease-in-out;
+}
+.skill-container .skill-tile:hover {
+  z-index: 2;
+  opacity: 1;
+}
+
+.project-list:hover .project-tile {
+  opacity: 0.4;
+  transition: opacity 0.2s ease-in-out;
+}
+.project-list .project-tile:hover {
+  opacity: 1;
+}
+.container {
+  max-width: 1920px;
 }

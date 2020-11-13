@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 export const query = graphql`
   query($slug: String!) {
     projectsJson(slug: { eq: $slug }) {
@@ -27,7 +27,7 @@ export const query = graphql`
 const ProjectPage = ({ data }) => {
   const project = data.projectsJson;
   console.log(project);
-  return <div>Project Page</div>;
+  return <Link to="/#contact">Contact</Link>;
 };
 
 export default ProjectPage;

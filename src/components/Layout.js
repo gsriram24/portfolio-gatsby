@@ -10,25 +10,25 @@ const Layout = ({ left, right }) => {
         const bgColor = darkMode ? 'bg-primary-dark' : 'bg-primary-light';
         return (
           <div
-            className={`w-full min-w-full h-full min-h-screen transition duration-500 ease-in-out ${bgColor}`}
+            className={`h-full min-h-screen transition duration-500 ease-in-out ${bgColor}`}
           >
-            <DarkModeButton changeTheme={changeTheme} darkMode={darkMode} />
-            <div className="flex flex-col lg:flex-row">
-              <div className="mx-8 lg:mx-16 lg:w-1/2">
-                <div className="fixed bg-primary-dark lg:hidden">
+            <div className="container mx-auto relative">
+              <DarkModeButton changeTheme={changeTheme} darkMode={darkMode} />
+              <div className="flex flex-col w-full lg:flex-row">
+                <div className="fixed w-full bg-primary-dark lg:hidden">
                   <Header />
                 </div>
-                <div className="lg:fixed overflow-scroll justify-between pt-16 pb-12 lg:h-screen flex flex-col left lg:w-1/2">
+                <div className="lg:sticky top-0 lg:w-1/2 lg:h-screen overflow-scroll justify-between ml-4 md:ml-8 lg:ml-16 pt-16 pb-12 flex flex-col left">
                   {left}
                   <div className="hidden lg:block">
                     <Footer darkMode={darkMode} />
                   </div>
                 </div>
-              </div>
-              <div className="lg:w-1/2 my-16 lg:my-0 lg:mt-16 mx-8 lg:mx-16">
-                {right}
-                <div className="lg:hidden">
-                  <Footer darkMode={darkMode} />
+                <div className="lg:w-1/2 mb-16 lg:mb-0  mx-4 md:mx-8 lg:mx-16">
+                  {right}
+                  <div className="lg:hidden">
+                    <Footer darkMode={darkMode} />
+                  </div>
                 </div>
               </div>
             </div>

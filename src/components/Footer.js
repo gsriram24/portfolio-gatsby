@@ -42,7 +42,7 @@ const Footer = ({ darkMode }) => {
           </svg>
         </a>
         <a
-          className="flex lg:mr-10  mt-4 flex-row items-center"
+          className="flex md:mr-6 lg:mr-10  mt-4 flex-row items-center"
           href="https://www.linkedin.com/in/gsriram24/"
           target="_blank"
           rel="noopener noreferrer"

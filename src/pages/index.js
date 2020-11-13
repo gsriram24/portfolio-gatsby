@@ -1,40 +1,28 @@
 import React from 'react';
 import IndexLeft from '../components/index/IndexLeft';
+import IndexRight from '../components/index/IndexRight';
 import Layout from '../components/Layout';
-import { ThemeContext } from '../context/ThemeContext';
-
+import { graphql } from 'gatsby';
 import '../css/tailwind.css';
 import './index.css';
-const Home = () => {
-  return (
-    <Layout
-      left={<IndexLeft />}
-      right={
-        <ThemeContext.Consumer>
-          {({ darkMode }) => (
-            <>
-              <div className={`text-primary-${darkMode ? 'light' : 'dark'}`}>
-                Right
-              </div>
-              <div
-                className={`h-screen text-primary-${
-                  darkMode ? 'light' : 'dark'
-                }`}
-              >
-                Right
-              </div>
-              <div
-                className={`h-screen text-primary-${
-                  darkMode ? 'light' : 'dark'
-                }`}
-              >
-                Right
-              </div>
-            </>
-          )}
-        </ThemeContext.Consumer>
+export const query = graphql`
+  query {
+    allProjectsJson(filter: { isFeatured: { eq: true } }) {
+      edges {
+        node {
+          projectName
+          slug
+          summary
+          featuredTags
+        }
       }
-    />
+    }
+  }
+`;
+const Home = ({ data }) => {
+  const projects = data.allProjectsJson.edges;
+  return (
+    <Layout left={<IndexLeft />} right={<IndexRight projects={projects} />} />
   );
 };
 export default Home;
