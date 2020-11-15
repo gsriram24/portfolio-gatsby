@@ -8,13 +8,13 @@ const IndexLeft = () => {
     title1: 'Hello, I am',
     title2: 'Sriram',
     body: (
-      <p>
+      <span>
         I am a programmer and an aspiring opensource developer from Bangalore,
         India looking to dive deep into ReactJS Development, Deep Learning and
         Flutter Development. I love racking my brain over challenges and puzzles
         and would like to be occupied all the time. I am also an avid gamer with
         countless hours on competitve games.
-      </p>
+      </span>
     ),
   };
   return (

@@ -3,6 +3,7 @@ import React from 'react';
 const DarkModeButton = ({ changeTheme, darkMode }) => {
   return (
     <button
+      aria-label="dark-mode-button"
       className="dark-mode-button fixed right-0 mt-16 lg:mr-16 mr-4 z-10 focus:outline-none focus:border-none"
       onClick={() => {
         changeTheme();

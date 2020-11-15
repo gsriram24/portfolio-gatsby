@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import { graphql } from 'gatsby';
 import '../css/tailwind.css';
 import './index.css';
+import SEO from '../components/SEO';
 export const query = graphql`
   query {
     allProjectsJson(filter: { isFeatured: { eq: true } }) {
@@ -22,7 +23,10 @@ export const query = graphql`
 const Home = ({ data }) => {
   const projects = data.allProjectsJson.edges;
   return (
-    <Layout left={<IndexLeft />} right={<IndexRight projects={projects} />} />
+    <>
+      <SEO />
+      <Layout left={<IndexLeft />} right={<IndexRight projects={projects} />} />
+    </>
   );
 };
 export default Home;

@@ -2,7 +2,6 @@ import React from 'react';
 import Img from 'gatsby-image';
 const TechStackTile = ({ tech, darkMode }) => {
   const textColor = darkMode ? 'light' : 'dark';
-  console.log(tech);
   return (
     <div className={`flex flex-col items-center text-primary-${textColor}`}>
       <div className="h-16 w-16">

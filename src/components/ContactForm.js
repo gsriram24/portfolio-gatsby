@@ -20,6 +20,7 @@ const ContactForm = ({ darkMode }) => {
             type="text"
             placeholder="John Doe"
             name="name"
+            id="name"
             className={textInputStyle}
             required
           />
@@ -32,6 +33,7 @@ const ContactForm = ({ darkMode }) => {
             type="email"
             placeholder="john@example.com"
             name="email"
+            id="email"
             className={textInputStyle}
             required
           />
@@ -43,6 +45,7 @@ const ContactForm = ({ darkMode }) => {
           <textarea
             placeholder="Enter your description"
             name="description"
+            id="description"
             rows="5"
             cols="50"
             className={textInputStyle}

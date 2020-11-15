@@ -7,7 +7,7 @@ const AllProjectsLeft = ({ tags, checkBoxHandler }) => {
   const heroData = {
     title1: 'All Projects',
     body: (
-      <p>
+      <span>
         I am a programmer and an aspiring opensource developer from Bangalore,
         India looking to dive deep into ReactJS Development, Deep Learning and
         Flutter Development. I love racking my brain over challenges and puzzles
@@ -16,7 +16,7 @@ const AllProjectsLeft = ({ tags, checkBoxHandler }) => {
         <span className="hidden lg:inline">
           Please use the buttons given below to filter the projects.
         </span>
-      </p>
+      </span>
     ),
   };
   return (

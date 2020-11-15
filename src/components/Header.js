@@ -9,7 +9,7 @@ const Header = ({ darkMode }) => {
     <div
       className={`text-primary-${textColor} flex items-center flex-row justify-between py-4 px-4`}
     >
-      <Link to="/">
+      <Link aria-label="home" to="/">
         <svg
           width="14"
           height="18"
