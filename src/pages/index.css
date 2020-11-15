@@ -42,3 +42,36 @@ html,
 .container {
   max-width: 1920px;
 }
+
+input[type='checkbox'] {
+  display: none;
+}
+
+label div .img {
+  filter: grayscale(100%);
+  transition: filter 0.2s ease-in-out;
+}
+
+:checked + label div .img {
+  filter: none;
+  transition: filter 0.2s ease-in-out;
+}
+label .checkbox-text-container-light {
+  color: #858585;
+}
+:checked + label .checkbox-text-container-light {
+  color: #f2f2f2;
+  font-weight: 500;
+  transition: font-weight 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+label .checkbox-text-container-dark {
+  color: #3d3d3d;
+}
+:checked + label .checkbox-text-container-dark {
+  color: #0b0f13;
+  font-weight: 600;
+  transition: font-weight 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}

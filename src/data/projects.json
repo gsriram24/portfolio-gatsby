@@ -5,35 +5,33 @@
     "projectName": "SeeFood",
     "summary": "An App built using Flutter and Tensorflow Lite to detect 10 different food classes.",
     "description": "An application built using Flutter and Tensorflow Lite to classify 10 different types of food and show their respective recipes. An Image Classification Model (Mobilenet V2) trained using Tensorflow. Conversion of the model to Tensorflow Lite. A mobile application built using Flutter with the tflite library for offline inference",
-    "tags": [
-      {
-        "tagName": "Deep Learning",
-        "tagIcon": ""
-      },
-      {
-        "tagName": "Cross Platform App Development",
-        "tagIcon": ""
-      }
-    ],
+    "tags": ["deep-learning", "cross-app-development"],
     "featuredTags": ["Deep Learning", "App Development"],
     "techStack": [
       {
         "name": "Flutter",
-        "icon": ""
+        "image": "../images/others/flutter.png"
       },
       {
         "name": "Tensorflow",
-        "icon": ""
+        "image": "../images/others/tensorflow.png"
       },
       {
         "name": "Keras",
-        "icon": ""
+        "image": "../images/others/keras.png"
       }
     ],
-    "images": ["../images/projects/SeeFood/test.png"],
-    "testimonials": "",
-    "github": "https://github.com/sgcuber24/see_food",
-    "demo": ""
+    "images": [
+      "../images/projects/SeeFood/test.png",
+      "../images/projects/SeeFood/SeeFood.png"
+    ],
+    "testimonials": {
+      "name": "Jian Yang",
+      "designation": "CEO, SeeFood",
+      "testimonial": "Erich Bachman Ruin my vision to create Hotdog/Not Hotdog app. But this app do more than 10 food. I am very rich now."
+    },
+    "demo": "",
+    "github": "https://github.com/sgcuber24/see_food"
   },
   {
     "slug": "seefood1",
@@ -41,34 +39,24 @@
     "projectName": "SeeFood",
     "summary": "An App built using Flutter and Tensorflow Lite to detect 10 different food classes.",
     "description": "An application built using Flutter and Tensorflow Lite to classify 10 different types of food and show their respective recipes. An Image Classification Model (Mobilenet V2) trained using Tensorflow. Conversion of the model to Tensorflow Lite. A mobile application built using Flutter with the tflite library for offline inference",
-    "tags": [
-      {
-        "tagName": "Deep Learning",
-        "tagIcon": ""
-      },
-      {
-        "tagName": "Cross Platform App Development",
-        "tagIcon": ""
-      }
-    ],
+    "tags": ["deep-learning4", "cross-app-development4"],
     "featuredTags": ["Deep Learning", "App Development"],
     "techStack": [
       {
         "name": "Flutter",
-        "icon": ""
+        "image": "../images/others/flutter.png"
       },
       {
         "name": "Tensorflow",
-        "icon": ""
+        "image": "../images/others/tensorflow.png"
       },
       {
         "name": "Keras",
-        "icon": ""
+        "image": "../images/others/keras.png"
       }
     ],
     "images": ["../images/projects/SeeFood/test.png"],
-    "testimonials": "",
-    "github": "https://github.com/sgcuber24/see_food",
-    "demo": ""
+    "demo": "",
+    "github": "https://github.com/sgcuber24/see_food"
   }
 ]

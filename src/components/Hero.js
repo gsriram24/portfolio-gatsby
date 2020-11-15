@@ -1,5 +1,5 @@
 import React from 'react';
-const Hero = ({ darkMode, data, location }) => {
+const Hero = ({ darkMode, data }) => {
   const textColor = darkMode ? 'light' : 'dark';
 
   return (

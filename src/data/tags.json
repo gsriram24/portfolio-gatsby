@@ -1,0 +1,32 @@
+[
+  {
+    "id": "deep-learning",
+    "tagName": "Deep Learning",
+    "image": "../images/others/tensorflow.png"
+  },
+  {
+    "id": "cross-app-development",
+    "tagName": "Cross Platform App Development",
+    "image": "../images/others/flutter.png"
+  },
+  {
+    "id": "deep-learning1",
+    "tagName": "Deep Learning",
+    "image": "../images/others/tensorflow.png"
+  },
+  {
+    "id": "cross-app-development1",
+    "tagName": "Cross Platform App Development",
+    "image": "../images/others/flutter.png"
+  },
+  {
+    "id": "deep-learning2",
+    "tagName": "Deep Learning",
+    "image": "../images/others/tensorflow.png"
+  },
+  {
+    "id": "cross-app-development2",
+    "tagName": "Cross Platform App Development",
+    "image": "../images/others/flutter.png"
+  }
+]

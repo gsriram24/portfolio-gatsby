@@ -1,9 +1,9 @@
 module.exports = {
   future: {
-    // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+    purgeLayersByDefault: true,
+    removeDeprecatedGapUtilities: true,
   },
-  purge: [],
+  purge: false,
   theme: {
     extend: {
       opacity: {
