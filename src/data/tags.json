@@ -1,7 +1,7 @@
 [
   {
     "id": "deep-learning",
-    "tagName": "Deep Learning",
+    "tagName": "Machine Learning and Deep Learning",
     "image": "../images/others/tensorflow.png"
   },
   {
@@ -10,23 +10,18 @@
     "image": "../images/others/flutter.png"
   },
   {
-    "id": "deep-learning1",
-    "tagName": "Deep Learning",
-    "image": "../images/others/tensorflow.png"
+    "id": "frontend-development",
+    "tagName": "Frontend Development",
+    "image": "../images/others/react.png"
   },
   {
-    "id": "cross-app-development1",
-    "tagName": "Cross Platform App Development",
-    "image": "../images/others/flutter.png"
+    "id": "backend-development",
+    "tagName": "Backend Development",
+    "image": "../images/others/node.png"
   },
   {
-    "id": "deep-learning2",
-    "tagName": "Deep Learning",
-    "image": "../images/others/tensorflow.png"
-  },
-  {
-    "id": "cross-app-development2",
-    "tagName": "Cross Platform App Development",
-    "image": "../images/others/flutter.png"
+    "id": "python",
+    "tagName": "Python",
+    "image": "../images/others/python.png"
   }
 ]

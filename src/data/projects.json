@@ -34,25 +34,38 @@
     "github": "https://github.com/sgcuber24/see_food"
   },
   {
-    "slug": "seefood1",
+    "slug": "crowdrepel",
     "isFeatured": true,
-    "projectName": "SeeFood",
-    "summary": "An App built using Flutter and Tensorflow Lite to detect 10 different food classes.",
-    "description": "An application built using Flutter and Tensorflow Lite to classify 10 different types of food and show their respective recipes. An Image Classification Model (Mobilenet V2) trained using Tensorflow. Conversion of the model to Tensorflow Lite. A mobile application built using Flutter with the tflite library for offline inference",
-    "tags": ["deep-learning4", "cross-app-development4"],
+    "projectName": "CrowdRepel",
+    "summary": "A Deep Learning and GeoLocation based service that enables users and organizations to help maintain physical distance.",
+    "description": "A Deep Learning and GeoLocation based service that enables users and organizations to maintain the appropriate physical distance and avoid contracting the Coronavirus. Pytorch Object Detection model (IterDet) to perform person detection in highly crowded environments. An algorithm to flag social distancing violations using Perspective Transformation. An end user application built using the MERN stack to provide Crowd Density Analytics.",
+    "tags": [
+      "deep-learning",
+      "frontend-development",
+      "backend-development",
+      "python"
+    ],
     "featuredTags": ["Deep Learning", "App Development"],
     "techStack": [
       {
-        "name": "Flutter",
-        "image": "../images/others/flutter.png"
+        "name": "React",
+        "image": "../images/others/react.png"
       },
       {
-        "name": "Tensorflow",
-        "image": "../images/others/tensorflow.png"
+        "name": "PyTorch",
+        "image": "../images/others/pytorch.png"
       },
       {
-        "name": "Keras",
-        "image": "../images/others/keras.png"
+        "name": "Node.js",
+        "image": "../images/others/node.png"
+      },
+      {
+        "name": "OpenCV",
+        "image": "../images/others/opencv.png"
+      },
+      {
+        "name": "Leaflet",
+        "image": "../images/others/leaflet.png"
       }
     ],
     "images": ["../images/projects/SeeFood/test.png"],

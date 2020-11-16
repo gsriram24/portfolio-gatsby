@@ -9,7 +9,7 @@ const ProjectRight = ({ images, testimonials, demo, github }) => {
     <ThemeContext.Consumer>
       {({ darkMode }) => (
         <div className="w-full xl:w-11/12">
-          <div className="pt-16">
+          <div className="lg:pt-16">
             <ImagesContainer images={images} darkMode={darkMode} />
           </div>
 
