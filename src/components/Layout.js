@@ -30,14 +30,11 @@ const Layout = ({ left, right }) => {
             <div className="container mx-auto relative">
               <DarkModeButton changeTheme={changeTheme} darkMode={darkMode} />
               <div className="flex flex-col w-full lg:flex-row">
-                <motion.div
-                  variants={variants}
-                  initial="hidden"
-                  animate="visible"
+                <div
                   className={`fixed w-full z-10 ${bgColor} transition duration-500 lg:hidden`}
                 >
                   <Header darkMode={darkMode} />
-                </motion.div>
+                </div>
                 <motion.div
                   variants={variants}
                   initial="hidden"
