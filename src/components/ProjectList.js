@@ -23,7 +23,7 @@ const ProjectList = ({ projects, darkMode }) => {
       }}
       animate={{
         overflow: 'visible',
-        transition: { duration: 0.2, ease: 'easeInOut', delay: 2 },
+        transition: { duration: 0.2, ease: 'easeInOut', delay: 1.1 },
       }}
     >
       <motion.div

@@ -12,7 +12,7 @@ const TagCheckBox = ({ tag, darkMode, checkBoxHandler }) => {
       />
       <label
         htmlFor={tag.id}
-        className=" flex flex-col w-24 items-center cursor-pointer items-center"
+        className=" flex flex-col w-24 items-center cursor-pointer"
       >
         <div className="h-12 w-12">
           <Img className="img" fluid={tag.image.childImageSharp.fluid} />

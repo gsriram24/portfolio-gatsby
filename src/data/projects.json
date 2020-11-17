@@ -1,10 +1,69 @@
 [
   {
-    "slug": "seefood",
+    "slug": "karankowshik-portfolio",
     "isFeatured": true,
+    "projectName": "Portfolio Website for Karan Kowshik",
+    "summary": "Development of a portfolio website for Karan Kowshik, UI/UX and Web Designer. ",
+    "description": "This project involved the development a responsive portfolio website for Karan Kowshik. To develop a full fledged portfolio website with dynamically generated pages, GatsbyJS was used. Major part of styling and layout was done using TailwindCSS. Framer Motion was used to create the animations seen in the website.",
+    "tags": ["frontend-development"],
+    "featuredTags": ["Frontend Development"],
+    "techStack": [
+      {
+        "name": "Gatsby",
+        "image": "../images/others/gatsby.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "image": "../images/others/tailwind.png"
+      },
+      {
+        "name": "Framer Motion",
+        "image": "../images/others/framer-motion.png"
+      }
+    ],
+    "images": [
+      "../images/projects/SeeFood/test.png",
+      "../images/projects/SeeFood/SeeFood.png"
+    ],
+    "testimonials": {
+      "name": "Karan Kowshik",
+      "designation": "UI/UX & Web Designer",
+      "testimonial": "My experience with Sriram has been fantastic. He is ready to make changes whenever necessary. He has done a great job converting designs to a responsive website."
+    },
+    "demo": "https://karankowshik.netlify.app",
+    "github": ""
+  },
+  {
+    "slug": "substitute_teacher_management",
+    "isFeatured": true,
+    "projectName": "Substitue Teacher Management",
+    "summary": "An app built using Flutter to efficiently find substitute teachers in an educational environment.",
+    "description": "This is a mobile application built to help admins of an institution to find and inform substitute teachers efficiently. Using this app, the admin can view a list of substitute teachers generated based on a few constraints for any given teacher, on any given day. Upon choosing the substitute teacher, the admin has the option to notify the teacher via E-Mail regarding the same.",
+    "tags": ["cross-app-development"],
+    "featuredTags": ["App Development"],
+    "techStack": [
+      {
+        "name": "Flutter",
+        "image": "../images/others/flutter.png"
+      },
+      {
+        "name": "Firebase",
+        "image": "../images/others/firebase.png"
+      }
+    ],
+    "images": [
+      "../images/projects/SeeFood/test.png",
+      "../images/projects/SeeFood/SeeFood.png"
+    ],
+    "demo": "",
+    "github": "https://github.com/sgcuber24/substitute_teacher_management"
+  },
+  {
+    "slug": "seefood",
+    "isFeatured": false,
     "projectName": "SeeFood",
     "summary": "An App built using Flutter and Tensorflow Lite to detect 10 different food classes.",
-    "description": "An application built using Flutter and Tensorflow Lite to classify 10 different types of food and show their respective recipes. An Image Classification Model (Mobilenet V2) trained using Tensorflow. Conversion of the model to Tensorflow Lite. A mobile application built using Flutter with the tflite library for offline inference",
+    "description": "Inspired by the show Sillicon Valley, SeeFood is an application built using Flutter and Tensorflow Lite to classify 10 different types of food and show their respective recipes. To achieve this, an Image Classification Model (Mobilenet V2) was trained using Tensorflow and Keras. Then the model was convereted to the Tensorflow Lite format for on-device inference. Finally, a mobile application built using Flutter, using the tflite library for offline inference",
     "tags": ["deep-learning", "cross-app-development"],
     "featuredTags": ["Deep Learning", "App Development"],
     "techStack": [
@@ -25,11 +84,6 @@
       "../images/projects/SeeFood/test.png",
       "../images/projects/SeeFood/SeeFood.png"
     ],
-    "testimonials": {
-      "name": "Jian Yang",
-      "designation": "CEO, SeeFood",
-      "testimonial": "Erich Bachman Ruin my vision to create Hotdog/Not Hotdog app. But this app do more than 10 food. I am very rich now."
-    },
     "demo": "",
     "github": "https://github.com/sgcuber24/see_food"
   },
@@ -38,14 +92,14 @@
     "isFeatured": true,
     "projectName": "CrowdRepel",
     "summary": "A Deep Learning and GeoLocation based service that enables users and organizations to help maintain physical distance.",
-    "description": "A Deep Learning and GeoLocation based service that enables users and organizations to maintain the appropriate physical distance and avoid contracting the Coronavirus. Pytorch Object Detection model (IterDet) to perform person detection in highly crowded environments. An algorithm to flag social distancing violations using Perspective Transformation. An end user application built using the MERN stack to provide Crowd Density Analytics.",
+    "description": "CrowdRepel is a Deep Learning and GeoLocation based service that aims to enable users and organizations to maintain the appropriate physical distance and avoid contracting the Coronavirus. A Pytorch Object Detection model (IterDet) to perform person detection in highly crowded environments was trained to get the people count through CCTV caameras. To flag social distancing violations, an algorithm using Perspective Transformation was written. An end user application was built using the MERN stack to provide Crowd Density Analytics to common people.",
     "tags": [
       "deep-learning",
       "frontend-development",
       "backend-development",
       "python"
     ],
-    "featuredTags": ["Deep Learning", "App Development"],
+    "featuredTags": ["Deep Learning", "Fullstack Development"],
     "techStack": [
       {
         "name": "React",
@@ -56,20 +110,101 @@
         "image": "../images/others/pytorch.png"
       },
       {
+        "name": "OpenCV",
+        "image": "../images/others/opencv.png"
+      },
+      {
         "name": "Node.js",
         "image": "../images/others/node.png"
       },
       {
-        "name": "OpenCV",
-        "image": "../images/others/opencv.png"
+        "name": "MongoDB",
+        "image": "../images/others/mongodb.png"
       },
+
       {
         "name": "Leaflet",
         "image": "../images/others/leaflet.png"
       }
     ],
     "images": ["../images/projects/SeeFood/test.png"],
+    "demo": "https://crowd-repel.herokuapp.com/",
+    "github": "https://github.com/sgcuber24/crowd-repel-react"
+  },
+  {
+    "slug": "easytravel",
+    "isFeatured": false,
+    "projectName": "EasyTravel",
+    "summary": "A simple mobile application to show the working of an online ticketing system for daily public transport.",
+    "description": "Easy Travel is an application built using React Native and Node.js to show the working of a cashless ticketing system for daily public transport. Using this app, Daily commuters can scan a QR Code associated with a bus and select their journey details, and a ticket would be generated calculating the cost of the journey.",
+    "tags": ["cross-app-development", "backend-development"],
+    "featuredTags": ["App Development", "Backend Development"],
+    "techStack": [
+      {
+        "name": "React Native",
+        "image": "../images/others/react.png"
+      },
+
+      {
+        "name": "Node.js",
+        "image": "../images/others/node.png"
+      },
+
+      {
+        "name": "MongoDB",
+        "image": "../images/others/mongodb.png"
+      }
+    ],
+    "images": ["../images/projects/SeeFood/test.png"],
     "demo": "",
-    "github": "https://github.com/sgcuber24/see_food"
+    "github": "https://github.com/sgcuber24/EasyBMTC"
+  },
+  {
+    "slug": "hobbyit",
+    "isFeatured": false,
+    "projectName": "HobbyIt",
+    "summary": "A mobile application to connect people having similar interests.",
+    "description": "HobbyIt is a mobile application built to connect people having similar interests. The application was built using React Native and various services of Firebase such as Cloud Firestore, Auth and Cloud Storage were used for the backend. Using this app, people who register can find a list of people who have one or more common interests.",
+    "tags": ["cross-app-development"],
+    "featuredTags": ["App Development"],
+    "techStack": [
+      {
+        "name": "React Native",
+        "image": "../images/others/react.png"
+      },
+      {
+        "name": "Firebase",
+        "image": "../images/others/firebase.png"
+      }
+    ],
+    "images": ["../images/projects/SeeFood/test.png"],
+    "demo": "",
+    "github": "https://github.com/sgcuber24/hobbyit"
+  },
+  {
+    "slug": "iclog",
+    "isFeatured": false,
+    "projectName": "ICLog",
+    "summary": "A GUI based desktop application to manage components in Labs.",
+    "description": "ICLog is a Desktop Application consisting of Admin Panel and Student Panel built using PyQT5 to help lab in-charges manage lab components. A student in a given lab can request for one or more components that are available in stock, and the admin/incharge can approve or reject their request. The admin can also view the transaction history, or pending transactions in their dashboard. User details, component details and transaction history managed by MySQL.",
+    "tags": ["python"],
+    "featuredTags": ["Python"],
+    "techStack": [
+      {
+        "name": "Python 3",
+        "image": "../images/others/python.png"
+      },
+      {
+        "name": "PyQT 5",
+        "image": "../images/others/pyqt.png"
+      },
+      {
+        "name": "MySQL",
+        "image": "../images/others/mysql.png"
+      }
+    ],
+    "images": ["../images/projects/SeeFood/test.png"],
+    "demo": "",
+    "github": "https://github.com/sgcuber24/ic-log"
   }
 ]

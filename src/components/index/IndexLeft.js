@@ -5,15 +5,15 @@ import NavContainer from './NavContainer';
 
 const IndexLeft = () => {
   const heroData = {
-    title1: 'Hello, I am',
+    title1: 'Hi, I am',
     title2: 'Sriram',
     body: (
       <span>
-        I am a programmer and an aspiring opensource developer from Bangalore,
-        India looking to dive deep into ReactJS Development, Deep Learning and
-        Flutter Development. I love racking my brain over challenges and puzzles
-        and would like to be occupied all the time. I am also an avid gamer with
-        countless hours on competitve games.
+        I am a developer based in Bangalore, India looking to dive deep into
+        Software Development, Deep Learning and Flutter Development. This
+        website gives a glimpse into my work demostrating various skills that I
+        have picked up through my never-ending journey of learning new tools and
+        technologies.
       </span>
     ),
   };
