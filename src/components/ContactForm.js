@@ -7,7 +7,6 @@ const ContactForm = ({ darkMode }) => {
   return (
     <form
       method="post"
-      netlify-honeypot="bot-field"
       data-netlify="true"
       name="contact"
       className={`w-full sm:w-3/4 md:w-3/4 lg:w-full bg-secondary-${bgColor} p-8 lg:p-10 xl:p-12 text-primary-${textColor}`}
