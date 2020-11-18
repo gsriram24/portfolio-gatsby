@@ -3,7 +3,11 @@ export const ThemeContext = createContext();
 const ThemeProvider = ({ children }) => {
   const [darkMode, setDarkMode] = useState(true);
   useEffect(() => {
-    setDarkMode(JSON.parse(localStorage.getItem('darkMode')) || true);
+    setDarkMode(
+      JSON.parse(localStorage.getItem('darkMode')) == null
+        ? true
+        : JSON.parse(localStorage.getItem('darkMode'))
+    );
   }, []);
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(darkMode));
