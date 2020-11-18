@@ -6,6 +6,10 @@ const ContactForm = ({ darkMode }) => {
   const textInputStyle = `text-primary-${textColor} bg-transparent fill-transparent opacity-100 outline-none`;
   return (
     <form
+      method="post"
+      netlify-honeypot="bot-field"
+      data-netlify="true"
+      name="contact"
       className={`w-full sm:w-3/4 md:w-3/4 lg:w-full bg-secondary-${bgColor} p-8 lg:p-10 xl:p-12 text-primary-${textColor}`}
     >
       <div className="text-lg md:text-xl xl:text-2xl w-3/4">
