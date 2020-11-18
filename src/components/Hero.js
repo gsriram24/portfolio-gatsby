@@ -1,12 +1,11 @@
 import React from 'react';
 const Hero = ({ darkMode, data }) => {
   const textColor = darkMode ? 'light' : 'dark';
-  console.log(data.title1.length >= 20);
   return (
     <div className={`text-primary-${textColor}`}>
       <span
         className={`text-5xl lg:text-${
-          data.title1.length >= 20 ? '5xl' : '6xl'
+          data.title1.length >= 25 ? '5xl' : '6xl'
         } font-semibold leading-tight`}
       >
         <div>{data.title1}</div>

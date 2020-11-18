@@ -25,7 +25,7 @@ const TestimonialTile = ({ testimonials, darkMode }) => {
         variants={tileVariants}
         initial="hidden"
         animate="visible"
-        className={`w-full project-tile flex flex-col justify-evenly h-48 bg-secondary-${bgColor} px-8 lg:px-10 xl:px-12 text-primary-${textColor}`}
+        className={`w-full project-tile flex flex-col justify-evenly h-56 sm:h-48 bg-secondary-${bgColor} px-4 sm:px-8 lg:px-10 xl:px-12 text-primary-${textColor}`}
       >
         <div className={`md:mr-6 mr-4 text-sm text-accent-${textColor}`}>
           {testimonials.testimonial}

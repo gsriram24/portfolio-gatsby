@@ -4,7 +4,7 @@ const DarkModeButton = ({ changeTheme, darkMode }) => {
   return (
     <button
       aria-label="dark-mode-button"
-      className="dark-mode-button fixed right-0 mt-16 lg:mr-16 mr-4 z-10 focus:outline-none focus:border-none"
+      className="dark-mode-button lg:fixed right-0 lg:mt-16 xl:mr-16 lg:mr-4 lg:z-10 focus:outline-none focus:border-none"
       onClick={() => {
         changeTheme();
       }}
@@ -12,8 +12,8 @@ const DarkModeButton = ({ changeTheme, darkMode }) => {
       {!darkMode ? (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
+          width="18"
+          height="18"
           viewBox="0 0 24 24"
           fill="17171"
           stroke="currentColor"
@@ -34,8 +34,8 @@ const DarkModeButton = ({ changeTheme, darkMode }) => {
       ) : (
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
+          width="18"
+          height="18"
           viewBox="0 0 24 24"
           fill="#F7F7F7"
           stroke="#F7F7F7"

@@ -30,7 +30,7 @@ module.exports = {
       options: {
         printRejected: true,
         tailwind: true,
-        whitelistPatterns: [/-primary/, /-secondary/, /-accent/],
+        whitelistPatterns: [/-primary/, /-secondary/, /-accent/, /-6xl/],
         ignore: ['/index.css'],
       },
     },

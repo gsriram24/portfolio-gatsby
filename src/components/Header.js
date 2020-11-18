@@ -1,8 +1,9 @@
 import React from 'react';
 import { globalHistory as history } from '@reach/router';
 import { navigate, Link } from 'gatsby';
+import DarkModeButton from './DarkModeButton';
 
-const Header = ({ darkMode }) => {
+const Header = ({ darkMode, changeTheme }) => {
   const textColor = darkMode ? 'light' : 'dark';
   const buttonStyle = `focus:text-primary-${textColor} ml-6 text-sm focus:font-semibold focus:outline-none`;
   return (
@@ -44,6 +45,9 @@ const Header = ({ darkMode }) => {
         <button className={buttonStyle} onClick={() => navigate('/#contact')}>
           CONTACT
         </button>
+        <div className="ml-4 flex items-start">
+          <DarkModeButton changeTheme={changeTheme} darkMode={darkMode} />
+        </div>
       </div>
     </div>
   );

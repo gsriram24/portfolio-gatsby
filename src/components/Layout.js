@@ -28,12 +28,15 @@ const Layout = ({ left, right }) => {
             className={`h-full min-h-screen transition duration-500 ease-in-out ${bgColor}`}
           >
             <div className="container mx-auto relative">
-              <DarkModeButton changeTheme={changeTheme} darkMode={darkMode} />
+              <div className="hidden lg:block">
+                <DarkModeButton changeTheme={changeTheme} darkMode={darkMode} />
+              </div>
+
               <div className="flex flex-col w-full lg:flex-row">
                 <div
                   className={`fixed w-full z-10 ${bgColor} transition duration-500 lg:hidden`}
                 >
-                  <Header darkMode={darkMode} />
+                  <Header darkMode={darkMode} changeTheme={changeTheme} />
                 </div>
                 <motion.div
                   variants={variants}

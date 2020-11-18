@@ -22,8 +22,10 @@
       }
     ],
     "images": [
-      "../images/projects/SeeFood/test.png",
-      "../images/projects/SeeFood/SeeFood.png"
+      "../images/projects/KaranPortfolio/karan1.png",
+      "../images/projects/KaranPortfolio/karan2.png",
+      "../images/projects/KaranPortfolio/karan3.png",
+      "../images/projects/KaranPortfolio/karan4 .png"
     ],
     "testimonials": {
       "name": "Karan Kowshik",
@@ -33,6 +35,7 @@
     "demo": "https://karankowshik.netlify.app",
     "github": ""
   },
+
   {
     "slug": "substitute_teacher_management",
     "isFeatured": true,
@@ -52,12 +55,13 @@
       }
     ],
     "images": [
-      "../images/projects/SeeFood/test.png",
-      "../images/projects/SeeFood/SeeFood.png"
+      "../images/projects/Substitute/Substitute1.png",
+      "../images/projects/Substitute/Substitute2.png"
     ],
     "demo": "",
     "github": "https://github.com/sgcuber24/substitute_teacher_management"
   },
+
   {
     "slug": "seefood",
     "isFeatured": false,
@@ -81,12 +85,13 @@
       }
     ],
     "images": [
-      "../images/projects/SeeFood/test.png",
-      "../images/projects/SeeFood/SeeFood.png"
+      "../images/projects/SeeFood/SeeFood2.png",
+      "../images/projects/SeeFood/SeeFood1.png"
     ],
     "demo": "",
     "github": "https://github.com/sgcuber24/see_food"
   },
+
   {
     "slug": "crowdrepel",
     "isFeatured": true,
@@ -127,10 +132,16 @@
         "image": "../images/others/leaflet.png"
       }
     ],
-    "images": ["../images/projects/SeeFood/test.png"],
+    "images": [
+      "../images/projects/CrowdRepel/CrowdRepel1.png",
+      "../images/projects/CrowdRepel/CrowdRepel2.png",
+      "../images/projects/CrowdRepel/CrowdRepel3.png",
+      "../images/projects/CrowdRepel/CrowdRepel4.png"
+    ],
     "demo": "https://crowd-repel.herokuapp.com/",
     "github": "https://github.com/sgcuber24/crowd-repel-react"
   },
+
   {
     "slug": "easytravel",
     "isFeatured": false,
@@ -155,10 +166,14 @@
         "image": "../images/others/mongodb.png"
       }
     ],
-    "images": ["../images/projects/SeeFood/test.png"],
+    "images": [
+      "../images/projects/EasyTravel/easytravel1.png",
+      "../images/projects/EasyTravel/easytravel2.png"
+    ],
     "demo": "",
     "github": "https://github.com/sgcuber24/EasyBMTC"
   },
+
   {
     "slug": "hobbyit",
     "isFeatured": false,
@@ -177,10 +192,16 @@
         "image": "../images/others/firebase.png"
       }
     ],
-    "images": ["../images/projects/SeeFood/test.png"],
+    "images": [
+      "../images/projects/HobbyIt/hobbyit1.png",
+      "../images/projects/HobbyIt/hobbyit2.png",
+      "../images/projects/HobbyIt/hobbyit3.png",
+      "../images/projects/HobbyIt/hobbyit4.png"
+    ],
     "demo": "",
     "github": "https://github.com/sgcuber24/hobbyit"
   },
+
   {
     "slug": "iclog",
     "isFeatured": false,
@@ -203,7 +224,11 @@
         "image": "../images/others/mysql.png"
       }
     ],
-    "images": ["../images/projects/SeeFood/test.png"],
+    "images": [
+      "../images/projects/ICLog/ICLog3.png",
+      "../images/projects/ICLog/ICLog2.png",
+      "../images/projects/ICLog/ICLog1.png"
+    ],
     "demo": "",
     "github": "https://github.com/sgcuber24/ic-log"
   }
