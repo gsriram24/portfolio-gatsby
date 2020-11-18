@@ -27,7 +27,7 @@ const ProjectLink = ({ darkMode, demo, github }) => {
         {demo && (
           <a
             className="flex mt-4 mr-6 lg:mr-10 flex-row items-center"
-            href="https://github.com/sgcuber24"
+            href={demo}
             target="_blank"
             rel="noopener noreferrer"
           >

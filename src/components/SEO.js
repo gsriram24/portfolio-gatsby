@@ -1,7 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
+import { useLocation } from '@reach/router';
+import favicon from '../images/favicon.ico';
 const SEO = ({ description, keywords, title, author }) => {
+  const { pathname } = useLocation();
   return (
     <StaticQuery
       query={detailsQuery}
@@ -27,10 +30,12 @@ const SEO = ({ description, keywords, title, author }) => {
           'software developer',
         ];
         const metaAuthor = author || data.site.siteMetadata.author;
+        const metaUrl = `${data.site.siteMetadata.siteUrl}${pathname}`;
         return (
           <Helmet
             htmlAttributes={{ lang: 'en' }}
             title={metaTitle}
+            link={[{ rel: 'icon', href: `${favicon}` }]}
             meta={[
               {
                 name: `description`,
@@ -68,6 +73,10 @@ const SEO = ({ description, keywords, title, author }) => {
                 name: 'twitter:card',
                 content: 'summary_large_image',
               },
+              {
+                name: 'og:url',
+                content: metaUrl,
+              },
             ].concat({ name: 'keywords', content: metaKeywords.join(`, `) })}
           />
         );
@@ -83,6 +92,7 @@ const detailsQuery = graphql`
         title
         description
         author
+        siteUrl
       }
     }
   }

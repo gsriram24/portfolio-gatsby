@@ -3,6 +3,8 @@ import { graphql } from 'gatsby';
 import Layout from '../../components/Layout';
 import ProjectLeft from './ProjectLeft';
 import ProjectRight from './ProjectRight';
+import '../../css/tailwind.css';
+import '../../pages/index.css';
 import SEO from '../../components/SEO';
 export const query = graphql`
   query($slug: String!) {
