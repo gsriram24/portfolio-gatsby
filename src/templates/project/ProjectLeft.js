@@ -23,7 +23,7 @@ const ProjectLeft = ({ projectName, description, techStack }) => {
               to="/projects"
               className={`flex flex-row items-center text-primary-${
                 darkMode ? 'light' : 'dark'
-              }`}
+              } link-${darkMode ? 'light' : 'dark'}`}
             >
               <span className="underline text-sm mr-1">Projects</span>
               <svg
@@ -43,11 +43,12 @@ const ProjectLeft = ({ projectName, description, techStack }) => {
                 />
               </svg>
             </Link>
+
             <Link
               to="/"
-              className={`flex mt-6 flex-row items-center text-primary-${
+              className={`flex mt-6 flex-row link-${
                 darkMode ? 'light' : 'dark'
-              }`}
+              } items-center text-primary-${darkMode ? 'light' : 'dark'}`}
             >
               <span className="underline text-sm mr-1">Home</span>
               <svg

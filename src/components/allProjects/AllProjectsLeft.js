@@ -17,7 +17,7 @@ const AllProjectsLeft = ({ tags, checkBoxHandler }) => {
               <Link
                 className={`underline text-primary-${
                   darkMode ? 'light' : 'dark'
-                }`}
+                } link-${darkMode ? 'light' : 'dark'}`}
                 to="/#contact"
               >
                 Let's Talk
@@ -25,7 +25,11 @@ const AllProjectsLeft = ({ tags, checkBoxHandler }) => {
               about it.
               <br />
               <br />
-              <span className="hidden lg:inline">
+              <span
+                className={`hidden lg:inline font-semibold text-primary-${
+                  darkMode ? 'light' : 'dark'
+                }`}
+              >
                 Please use the buttons given below to filter the projects.
               </span>
             </span>
@@ -41,13 +45,14 @@ const AllProjectsLeft = ({ tags, checkBoxHandler }) => {
                 checkBoxHandler={checkBoxHandler}
               />
             </div>
+
             <Link
               to="/"
               className={`flex flex-row items-center text-primary-${
                 darkMode ? 'light' : 'dark'
-              } hidden mb-10 lg:flex`}
+              } hidden mb-10 lg:flex link-${darkMode ? 'light' : 'dark'}`}
             >
-              <span className="underline text-sm mr-1">Back home</span>
+              <span className="`underline  text-sm mr-1">Back home</span>
               <svg
                 width="8"
                 height="8"

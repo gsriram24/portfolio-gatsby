@@ -97,7 +97,7 @@
     "isFeatured": true,
     "projectName": "CrowdRepel",
     "summary": "A Deep Learning and GeoLocation based service that enables users and organizations to help maintain physical distance.",
-    "description": "CrowdRepel is a Deep Learning and GeoLocation based service that aims to enable users and organizations to maintain the appropriate physical distance and avoid contracting the Coronavirus. A Pytorch Object Detection model (IterDet) to perform person detection in highly crowded environments was trained to get the people count through CCTV caameras. To flag social distancing violations, an algorithm using Perspective Transformation was written. An end user application was built using the MERN stack to provide Crowd Density Analytics to common people.",
+    "description": "CrowdRepel is a Deep Learning and GeoLocation based service that aims to enable users and organizations to maintain the appropriate physical distance and avoid contracting the Coronavirus. A Pytorch Object Detection model (IterDet) to perform person detection in highly crowded environments was trained to get the people count through CCTV cameras. To flag social distancing violations, an algorithm using Perspective Transformation was written. An end user application was built using the MERN stack to provide Crowd Density Analytics to common people.",
     "tags": [
       "deep-learning",
       "frontend-development",

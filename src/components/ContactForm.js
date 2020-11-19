@@ -86,7 +86,7 @@ const ContactForm = ({ darkMode }) => {
         </button>
         <div className="flex flex-row mt-6 sm:mt-0 flex-wrap items-center">
           <a
-            className="flex mr-6 flex-row items-center"
+            className={`flex flex-row link-${textColor} mr-6 items-center`}
             href="https://wa.me/+918762412275?text=Hey%20I%20found%20your%20contact%20through%20your%20website%20and%20wanted%20to%20have%20a%20chat!"
             target="_blank"
             rel="noopener noreferrer"
@@ -121,7 +121,7 @@ const ContactForm = ({ darkMode }) => {
             </svg>
           </a>
           <a
-            className="flex flex-row items-center"
+            className={`flex flex-row link-${textColor} items-center`}
             href="tel:+918762412275"
             target="_blank"
             rel="noopener noreferrer"

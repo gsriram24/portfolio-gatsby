@@ -2,7 +2,7 @@ import React from 'react';
 import { navigate } from 'gatsby';
 const NavContainer = ({ darkMode }) => {
   const textColor = darkMode ? 'light' : 'dark';
-  const buttonStyle = `focus:text-primary-${textColor} focus:font-semibold focus:outline-none`;
+  const buttonStyle = `focus:text-primary-${textColor} nav-button-${textColor} focus:font-semibold focus:outline-none`;
 
   return (
     <div className={`text-accent-${textColor} text-left my-16 hidden lg:block`}>

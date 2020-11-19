@@ -26,7 +26,7 @@ const ProjectLink = ({ darkMode, demo, github }) => {
       >
         {demo && (
           <a
-            className="flex mt-4 mr-6 lg:mr-10 flex-row items-center"
+            className={`flex mt-4 mr-6 lg:mr-10 flex-row link-${textColor} items-center`}
             href={demo}
             target="_blank"
             rel="noopener noreferrer"
@@ -77,7 +77,7 @@ const ProjectLink = ({ darkMode, demo, github }) => {
         )}
         {github && (
           <a
-            className="flex md:mr-6 lg:mr-10  mt-4 flex-row items-center"
+            className={`flex md:mr-6 lg:mr-10 link-${textColor}  mt-4 flex-row items-center`}
             href={github}
             target="_blank"
             rel="noopener noreferrer"

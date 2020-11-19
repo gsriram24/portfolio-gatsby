@@ -6,7 +6,7 @@ const Footer = ({ darkMode }) => {
     <div className={`w-2/3 text-primary-${textColor}`}>
       <div className="flex flex-wrap">
         <a
-          className="flex mt-4 mr-6 lg:mr-10 flex-row items-center"
+          className={`flex mt-4 link-${textColor} mr-6 lg:mr-10 flex-row items-center`}
           href="https://github.com/sgcuber24"
           target="_blank"
           rel="noopener noreferrer"
@@ -42,7 +42,7 @@ const Footer = ({ darkMode }) => {
           </svg>
         </a>
         <a
-          className="flex md:mr-6 lg:mr-10  mt-4 flex-row items-center"
+          className={`flex mt-4 link-${textColor} md:mr-6 lg:mr-10 flex-row items-center`}
           href="https://www.linkedin.com/in/gsriram24/"
           target="_blank"
           rel="noopener noreferrer"
@@ -79,7 +79,7 @@ const Footer = ({ darkMode }) => {
           </svg>
         </a>
         <a
-          className="flex mr-6 lg:mr-10 mt-4 flex-row items-center"
+          className={`flex mt-4 link-${textColor} mr-6 lg:mr-10 flex-row items-center`}
           href="https://resume.creddle.io/resume/657k02y9xfn"
           target="_blank"
           rel="noopener noreferrer"
@@ -123,7 +123,7 @@ const Footer = ({ darkMode }) => {
       <div className={`text-xs mt-4 text-accent-${textColor}`}>
         Designed by{' '}
         <a
-          className={`underline text-primary-${textColor}`}
+          className={`underline text-primary-${textColor} link-${textColor}`}
           href="https://karankowshik.com/"
           target="_blank"
           rel="noopener noreferrer"
