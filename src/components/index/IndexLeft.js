@@ -11,8 +11,8 @@ const IndexLeft = () => {
       <span>
         I am a developer based in Bangalore, India looking to dive deep into
         Software Development, Deep Learning and Flutter Development. This
-        website gives a glimpse into my work demostrating various skills that I
-        have picked up through my never-ending journey of learning new tools and
+        website gives a glimpse into my work demonstrating various skills that I
+        have picked up through my never ending journey of learning new tools and
         technologies.
       </span>
     ),

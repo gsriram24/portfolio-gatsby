@@ -49,12 +49,12 @@ const Layout = ({ left, right }) => {
                     <Footer darkMode={darkMode} />
                   </div>
                 </motion.div>
-                <div className="lg:w-1/2 mb-16 lg:mb-0  mx-4 md:mx-8 lg:mx-16">
+                <main className="lg:w-1/2 mb-16 lg:mb-0  mx-4 md:mx-8 lg:mx-16">
                   {right}
                   <div className="lg:hidden">
                     <Footer darkMode={darkMode} />
                   </div>
-                </div>
+                </main>
               </div>
             </div>
           </div>
