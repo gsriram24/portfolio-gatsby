@@ -16,7 +16,7 @@
   },
   {
     "title": "Frontend Frameworks",
-    "skills": ["React", "Tailwind CSS", "Gatsby"],
+    "skills": ["React", "Tailwind CSS", "Gatsby", "Redux"],
     "icon": "../images/skills/react.png"
   },
   {

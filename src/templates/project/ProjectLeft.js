@@ -14,7 +14,7 @@ const ProjectLeft = ({ projectName, description, techStack }) => {
         <>
           <div>
             <Hero data={heroData} darkMode={darkMode} />
-            <div className="my-16">
+            <div className="my-12">
               <TechStackContainer techStack={techStack} darkMode={darkMode} />
             </div>
           </div>

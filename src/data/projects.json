@@ -1,5 +1,50 @@
 [
   {
+    "slug": "ppresports-portal",
+    "isFeatured": true,
+    "projectName": "League Registration Portal for PPR Esports",
+    "summary": "Development of a full stack application for PPR Esports, a Sim Racing esports organization.",
+    "description": "This fullstack application is aimed to allow PPR Esports to host their tournaments online and have users to register for it. It also includes an admin panel for the admins to manage their users and leagues. The backend was built using Node.js/Express.js along with Discord Authentication. MongoDB was used as the database. The frontend was built using React.js with Redux for state management. ",
+    "tags": ["frontend-development", "backend-development"],
+    "featuredTags": ["Fullstack Development"],
+    "techStack": [
+      {
+        "name": "React",
+        "image": "../images/others/react.png"
+      },
+      {
+        "name": "Redux",
+        "image": "../images/others/redux.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "image": "../images/others/tailwind.png"
+      },
+      {
+        "name": "Node.js",
+        "image": "../images/others/node.png"
+      },
+      {
+        "name": "MongoDB",
+        "image": "../images/others/mongodb.png"
+      }
+    ],
+    "images": [
+      "../images/projects/PPR/PPR1.png",
+      "../images/projects/PPR/PPR2.png",
+      "../images/projects/PPR/PPR3.png",
+      "../images/projects/PPR/PPR4.png",
+      "../images/projects/PPR/PPR5.png"
+    ],
+    "testimonials": {
+      "name": "James Warren",
+      "designation": "Co-founder, PPR Esports",
+      "testimonial": "Working with G. Sriram on this site was a pleasure. We gave him a challenging task, with plenty of live functionality requirements, and the implementation of functions that he was unfamiliar with but learned. The work was done in a timely manager and was professional the whole time. Any requests we had were adhered to, and we will continue to be working with him in the future for any projects"
+    },
+    "demo": "https://ppresports.com/",
+    "github": ""
+  },
+  {
     "slug": "karankowshik-portfolio",
     "isFeatured": true,
     "projectName": "Portfolio Website for Karan Kowshik",
@@ -32,13 +77,13 @@
       "designation": "UI/UX & Web Designer",
       "testimonial": "My experience with Sriram has been fantastic. He is ready to make changes whenever necessary. He has done a great job converting designs to a responsive website."
     },
-    "demo": "https://karankowshik.netlify.app",
+    "demo": "https://karankowshik.com",
     "github": ""
   },
 
   {
     "slug": "substitute_teacher_management",
-    "isFeatured": true,
+    "isFeatured": false,
     "projectName": "Substitue Teacher Management",
     "summary": "An app built using Flutter to efficiently find substitute teachers in an educational environment.",
     "description": "This is a mobile application built to help admins of an institution to find and inform substitute teachers efficiently. Using this app, the admin can view a list of substitute teachers generated based on a few constraints for any given teacher, on any given day. Upon choosing the substitute teacher, the admin has the option to notify the teacher via E-Mail regarding the same.",
