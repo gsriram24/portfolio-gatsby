@@ -56,7 +56,7 @@ const ProjectLink = ({ darkMode, demo, github }) => {
               />
             </svg>
 
-            <span className="ml-2 mr-1 text-sm">Project Demo</span>
+            <span className="ml-2 mr-1 text-sm">Project Link</span>
             <svg
               width="8"
               height="8"

@@ -26,26 +26,27 @@ const AllProjectsLeft = ({ tags, checkBoxHandler }) => {
               <br />
               <br />
               <span
-                className={`hidden lg:inline font-semibold text-primary-${
+                className={`hidden lg:inline text-2xl font-semibold text-primary-${
                   darkMode ? 'light' : 'dark'
                 }`}
               >
-                Please use the buttons given below to filter the projects.
+                Filters
               </span>
             </span>
           ),
         };
         return (
           <>
-            <Hero data={heroData} darkMode={darkMode} />
-            <div className="my-10 hidden lg:block">
-              <TagContainer
-                tags={tags}
-                darkMode={darkMode}
-                checkBoxHandler={checkBoxHandler}
-              />
+            <div>
+              <Hero data={heroData} darkMode={darkMode} />
+              <div className="my-8 hidden lg:block">
+                <TagContainer
+                  tags={tags}
+                  darkMode={darkMode}
+                  checkBoxHandler={checkBoxHandler}
+                />
+              </div>
             </div>
-
             <Link
               to="/"
               className={`flex flex-row items-center text-primary-${
