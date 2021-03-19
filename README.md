@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the official open source repository of my website. It is build on the latest technologies, trying to put together as much of what I have learnt over the years intro practice.
+This is the official open source repository of my website. It is built on the latest technologies, trying to put together as much of what I have learnt over the years intro practice.
 
 The website features a variety of tidbits from across the web, from how the server is set up to the animations on the page. This README.md serves as a feature list as to what all has made this website special, and a proof of source for anyone else to fork and work on their own version of the website (with due credits, of course).
 
