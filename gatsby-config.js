@@ -26,6 +26,14 @@ module.exports = {
         path: `${__dirname}/src/data/`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.gsriram.dev',
+        sitemap: 'https://www.gsriram.dev/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
     'gatsby-plugin-sitemap',
     {
       resolve: `gatsby-plugin-purgecss`,
