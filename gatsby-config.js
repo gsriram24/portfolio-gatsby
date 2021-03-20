@@ -4,7 +4,7 @@ module.exports = {
     description:
       'Personal Developer Portfolio for G Sriram. Check out my Projects and Skills in this website.',
     author: 'G Sriram',
-    siteUrl: `https://gsriram.netlify.app`,
+    siteUrl: `https://www.gsriram.dev/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
