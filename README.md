@@ -10,7 +10,7 @@ The website features a variety of tidbits from across the web, from how the serv
 
 To check out the live version of the site, head over to:
 
-### https://gsriram.netlify.app
+### https://gsriram.dev
 
 ## Technology
 
