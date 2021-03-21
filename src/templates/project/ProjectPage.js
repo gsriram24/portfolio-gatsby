@@ -46,7 +46,7 @@ const ProjectPage = ({ data }) => {
     <>
       <SEO
         title={`${project.projectName} | Projects | G Sriram`}
-        description={project.summary}
+        description={project.description}
       />
       <Layout
         left={
