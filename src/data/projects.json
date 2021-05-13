@@ -1,5 +1,56 @@
 [
   {
+    "slug": "attendance-system",
+    "isFeatured": true,
+    "projectName": "Automated Attendance System using Facial Recognition",
+    "summary": "A university attendance system that uses facial recognition to aid professors with maintaining attendance record.",
+    "description": "This project is aimed to show a digitized attendance system for schools and universities to maintain attendance record for students. The Face Recognition REST API was built using Flask and the face_recognition library. An app was built using Flutter for professors to record attendance by clicking one or more photos of the class. An admin panel was built using React and Redux for the admins to manage students, teachers and classes. The backend for handling student, teacher, classes and attendance data was built using Node.js/Express.js. MongoDB was used as the database. Known photos of students are stored in Firebase Cloud Storage",
+    "tags": [
+      "frontend-development",
+      "backend-development",
+      "cross-app-development",
+      "deep-learning",
+      "python"
+    ],
+    "featuredTags": ["Deep Learning", "Fullstack Development"],
+    "techStack": [
+      {
+        "name": "Flutter",
+        "image": "../images/others/flutter.png"
+      },
+      {
+        "name": "Flask",
+        "image": "../images/others/flask.png"
+      },
+      {
+        "name": "React",
+        "image": "../images/others/react.png"
+      },
+      {
+        "name": "Redux",
+        "image": "../images/others/redux.png"
+      },
+      {
+        "name": "Node.js",
+        "image": "../images/others/node.png"
+      },
+      {
+        "name": "MongoDB",
+        "image": "../images/others/mongodb.png"
+      },
+      {
+        "name": "Firebase",
+        "image": "../images/others/firebase.png"
+      }
+    ],
+    "images": [
+      "../images/projects/AttendanceSystem/Attendance1.png",
+      "../images/projects/AttendanceSystem/Attendance2.png",
+      "../images/projects/AttendanceSystem/Attendance3.png"
+    ],
+    "github": "https://github.com/sgcuber24/attendance_system_face_recognition_api"
+  },
+  {
     "slug": "ppresports-portal",
     "isFeatured": true,
     "projectName": "League Registration Portal for PPR Esports",
@@ -139,7 +190,7 @@
 
   {
     "slug": "crowdrepel",
-    "isFeatured": true,
+    "isFeatured": false,
     "projectName": "CrowdRepel",
     "summary": "A Deep Learning and GeoLocation based service that enables users and organizations to help maintain physical distance.",
     "description": "CrowdRepel is a Deep Learning and GeoLocation based service that aims to enable users and organizations to maintain the appropriate physical distance and avoid contracting the Coronavirus. A Pytorch Object Detection model (IterDet) to perform person detection in highly crowded environments was trained to get the people count through CCTV cameras. To flag social distancing violations, an algorithm using Perspective Transformation was written. An end user application was built using the MERN stack to provide Crowd Density Analytics to common people.",
