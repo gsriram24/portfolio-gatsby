@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "betsol",
+    "companyName": "BETSOL",
+    "summary": "Currently working as an Associate Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer.",
+    "description": "A website tailored to the need of a passionate post-production studio: colorful, graphic intensive and animation heavy. This 4 page website was developed using React, with animations created using GSAP and styled with TailwindCSS. Contentful CMS was used to store and display projects with YouTube video embeds across the webstie.",
+    "duration": "JULY 2021 - PRESENT"
+  },
+  {
+    "slug": "dhiyo-ai",
+    "companyName": "Dhiyo",
+    "summary": "A graphic intensive website filled with animations for a post-production studio based in Mumbai.",
+    "description": "A website tailored to the need of a passionate post-production studio: colorful, graphic intensive and animation heavy. This 4 page website was developed using React, with animations created using GSAP and styled with TailwindCSS. Contentful CMS was used to store and display projects with YouTube video embeds across the webstie.",
+    "duration": "DECEMBER 2020 - MARCH 2021"
+  }
+]

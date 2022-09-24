@@ -24,13 +24,8 @@ const TestimonialTile = ({ testimonials, darkMode }) => {
         <GenericTile
           description={testimonials.testimonial}
           footer={`${testimonials.name} | ${testimonials.designation}`}
-          darkMode
+          darkMode={darkMode}
         />
-        {/* <div className={`md:mr-6 mr-4 text-sm text-accent-${textColor}`}>
-          {testimonials.testimonial}
-        </div>
-
-        <div className="text-sm mt-2">{`${testimonials.name} | ${testimonials.designation}`}</div> */}
       </motion.div>
     </div>
   );

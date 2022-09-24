@@ -2,9 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { motion } from 'framer-motion';
 import GenericTile from './GenericTile';
-const ProjectTile = ({ project, darkMode }) => {
-  project = project.node;
-
+const WorkExperienceTile = ({ exp, darkMode }) => {
   const tileVariants = {
     hidden: {},
     hover: {
@@ -13,12 +11,13 @@ const ProjectTile = ({ project, darkMode }) => {
     },
   };
   return (
-    <Link to={`/projects/${project.slug}`}>
+    <Link to={`/experience/${exp.slug}`}>
       <motion.div initial="hidden" variants={tileVariants} whileHover="hover">
         <GenericTile
-          title={project.projectName}
-          tags={project.featuredTags}
-          description={project.summary}
+          key={exp.slug}
+          tags={[exp.duration]}
+          description={exp.summary}
+          title={exp.companyName}
           darkMode={darkMode}
         />
       </motion.div>
@@ -26,4 +25,4 @@ const ProjectTile = ({ project, darkMode }) => {
   );
 };
 
-export default ProjectTile;
+export default WorkExperienceTile;

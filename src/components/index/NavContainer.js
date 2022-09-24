@@ -7,6 +7,11 @@ const NavContainer = ({ darkMode }) => {
   return (
     <div className={`text-accent-${textColor} text-left my-16 hidden lg:block`}>
       <div>
+        <button className={buttonStyle} onClick={() => navigate('#experience')}>
+          WORK EXPERIENCE
+        </button>
+      </div>
+      <div className="mt-6">
         <button className={buttonStyle} onClick={() => navigate('#projects')}>
           PROJECTS
         </button>
