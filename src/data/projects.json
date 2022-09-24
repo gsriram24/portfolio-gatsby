@@ -1,5 +1,40 @@
 [
   {
+    "slug": "postbox28",
+    "isFeatured": true,
+    "projectName": "Company Portfolio for Postbox28",
+    "summary": "A website filled with animations and graphics for a post-production studio based in Mumbai.",
+    "description": "A website tailored to the need of a passionate post-production studio: colorful, graphic intensive and animation heavy. This 4 page website was developed using React, with animations created using GSAP and styled with TailwindCSS. Contentful CMS was used to store and display projects with YouTube video embeds across the webstie.",
+    "tags": ["frontend-development"],
+    "featuredTags": ["Frontend Development"],
+    "techStack": [
+      {
+        "name": "React",
+        "image": "../images/others/react.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "image": "../images/others/tailwind.png"
+      },
+      {
+        "name": "GSAP",
+        "image": "../images/others/gsap.png"
+      },
+      {
+        "name": "Contentful",
+        "image": "../images/others/contentful.png"
+      }
+    ],
+    "images": [
+      "../images/projects/Postbox/postbox1.png",
+      "../images/projects/Postbox/postbox2.png",
+      "../images/projects/Postbox/postbox3.png",
+      "../images/projects/Postbox/postbox4.png",
+      "../images/projects/Postbox/postbox5.png"
+    ],
+    "demo": "https://www.postbox28.com/"
+  },
+  {
     "slug": "attendance-system",
     "isFeatured": true,
     "projectName": "Automated Attendance System using Facial Recognition",

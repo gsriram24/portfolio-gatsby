@@ -1,18 +1,18 @@
 [
   {
+    "id": "frontend-development",
+    "tagName": "Frontend Development",
+    "image": "../images/others/react.png"
+  },
+  {
     "id": "deep-learning",
-    "tagName": "Machine Learning and Deep Learning",
+    "tagName": "Machine/Deep Learning",
     "image": "../images/others/tensorflow.png"
   },
   {
     "id": "cross-app-development",
-    "tagName": "Cross Platform App Development",
+    "tagName": "App Development",
     "image": "../images/others/flutter.png"
-  },
-  {
-    "id": "frontend-development",
-    "tagName": "Frontend Development",
-    "image": "../images/others/react.png"
   },
   {
     "id": "backend-development",
