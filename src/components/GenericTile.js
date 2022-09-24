@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 const GenericTile = ({ title, tags, description, footer, darkMode }) => {
   const textColor = darkMode ? 'light' : 'dark';
@@ -23,7 +25,9 @@ const GenericTile = ({ title, tags, description, footer, darkMode }) => {
       </div>
       {title && <div className="text-xl xl:text-2xl mb-4">{title}</div>}
 
-      <div className="text-sm">{description}</div>
+      <div className="text-sm">
+        <ReactMarkdown children={description} rehypePlugins={[rehypeRaw]} />
+      </div>
       {footer && (
         <div className={`text-sm mt-4 text-primary-${textColor}`}>{footer}</div>
       )}

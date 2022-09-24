@@ -18,8 +18,6 @@ const TestimonialTile = ({ testimonials, darkMode }) => {
       },
     },
   };
-  const textColor = darkMode ? 'light' : 'dark';
-  const bgColor = !darkMode ? 'light' : 'dark';
   return (
     <div className="overflow-hidden">
       <motion.div variants={tileVariants} initial="hidden" animate="visible">
