@@ -24,7 +24,7 @@ const ContactForm = ({ darkMode }) => {
           </label>
           <input
             type="text"
-            placeholder="John Doe"
+            placeholder="Sriram"
             name="name"
             id="name"
             className={textInputStyle}
@@ -37,7 +37,7 @@ const ContactForm = ({ darkMode }) => {
           </label>
           <input
             type="email"
-            placeholder="john@example.com"
+            placeholder="gsriram2403@gmail.com"
             name="email"
             id="email"
             className={textInputStyle}
@@ -46,10 +46,10 @@ const ContactForm = ({ darkMode }) => {
         </div>
         <div className="mt-6 flex flex-row">
           <label htmlFor="description" className="mr-4">
-            Description:
+            Message:
           </label>
           <textarea
-            placeholder="Enter your description"
+            placeholder="Leave a message"
             name="description"
             id="description"
             rows="5"
