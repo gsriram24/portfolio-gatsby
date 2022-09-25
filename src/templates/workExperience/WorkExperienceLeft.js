@@ -17,16 +17,20 @@ const WorkExperienceLeft = ({ workExperience }) => {
       </span>
     ),
   };
-  const links = [
-    {
+  const links = [];
+
+  if (workExperience?.workExperience?.length) {
+    links.push({
       name: 'WORK EXPERIENCE',
       link: '#experience',
-    },
-    {
+    });
+  }
+  if (workExperience?.projects?.length) {
+    links.push({
       name: 'PROJECTS',
       link: '#projects',
-    },
-  ];
+    });
+  }
   if (workExperience?.awards?.length) {
     links.push({
       name: 'AWARDS',

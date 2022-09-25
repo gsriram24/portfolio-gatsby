@@ -24,7 +24,7 @@ const ContactForm = ({ darkMode }) => {
           </label>
           <input
             type="text"
-            placeholder="Sriram"
+            placeholder="Your name"
             name="name"
             id="name"
             className={textInputStyle}
@@ -37,7 +37,7 @@ const ContactForm = ({ darkMode }) => {
           </label>
           <input
             type="email"
-            placeholder="gsriram2403@gmail.com"
+            placeholder="Your email"
             name="email"
             id="email"
             className={textInputStyle}

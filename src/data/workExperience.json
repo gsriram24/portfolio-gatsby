@@ -17,7 +17,7 @@
       {
         "name": "Sentinel",
         "duration": "AUGUST 2022 - PRESENT",
-        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games.",
+        "description": "Sentinel is BETSOL's new SaaS platform for creating, managing and notifying subscriptions. It will enable a given user to view all of their devices’ backed-up data in one spot. <br /><br />Being a part of a brand new project, apart from being a frontend developer, I worked on a lot of R&D as well before the start of development. <br /><br />**Some of my contributions to the project include:** <br/><br />- Researching, documenting and building POCs for various subscription management services.<br/> - Researching, documenting and building POCs for various user management services.<br/>- Participated in product design and wireframing sessions.<br/>- Setup the intital codebase for the project including aspects like Material UI Global theme config, Sonarqube, etc. <br/>- Developed various features required strictly adhering to design and code quality guidelines. <br/>- Handled payment related features invloving using hosted components from payment gateways and adhering to the PCI Guidelines. <br/>- Implemented role-based access for the entire frontend application.",
         "link": "https://sentinel.rebitgo.com/"
       }
     ],
@@ -42,47 +42,45 @@
       {
         "title": "Campus Training",
         "duration": "JULY 2022",
-        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games."
+        "description": "I was one of the trainers for the Javascript and ReactJS training for the 2022 campus batch. My responsibilites included finalizing the syllabus, developing slides and content, designing projects and assignments and framing quiz questions. The training sessions went on for 3 days which included 3 code along projects and one final project assignment."
       },
       {
         "title": "Internship Mentoring",
         "duration": "JULY 2022 - PRESENT",
-        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games."
+        "description": "I mentored multiple batches of interns on a new in-house product helping HRs onboard employees with ease. My responsibilites include overseeing the progress of the project, assigning tasks, teaching and mentoring when needed, taking technical decisions based on R&D performed and continuously evaluate the interns based on their performance."
       }
     ]
   },
   {
     "slug": "dhiyo-ai",
     "companyName": "Dhiyo",
-    "summary": "Interned at Dhiyo.ai, working on various core projects.",
-    "description": "A website tailored to the need of a passionate post-production studio: colorful, graphic intensive and animation heavy. This 4 page website was developed using React, with animations created using GSAP and styled with TailwindCSS. Contentful CMS was used to store and display projects with YouTube video embeds across the webstie.",
+    "summary": "Interned at Dhiyo.ai, working on various core projects including the complete overhaul of Dhiyo's company website.",
+    "description": "I worked as a Software Engineer Intern at Dhiyo.ai, a Multilingual Conversational AI Platform to Employ blue calller workers. I mainly worked on overhauling Dhiyo's company website rebuilding it with latest tools and technologies. I also worked on some of the side projects such as a Jio Phone version of Dhiyo and a job fair platform.",
     "duration": "DECEMBER 2020 - MARCH 2021",
     "keyFocus": "ReactJS, GatsbyJS, NodeJS, Material UI, TailwindCSS",
     "workExperience": [
       {
         "title": "Software Engineer Intern",
         "duration": "DECEMBER 2020 - MARCH 2021",
-        "description": "Currently working as an Associate Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer."
+        "description": "Interned at Dhiyo.ai, working on various core projects including the complete overhaul of Dhiyo's company website."
       }
     ],
     "projects": [
       {
-        "name": "Sentinel",
-        "duration": "AUGUST 2022 - PRESENT",
-        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games.",
-        "link": "https://sentinel.rebitgo.com/"
+        "name": "Dhiyo Company Website",
+        "duration": "DECEMBER 2020 - MARCH 2021",
+        "description": "I worked on the development of a brand new website for Dhiyo which needed an overhaul in terms of design and technology. The project involved setting up the codebase with the required plugins and CSS libraries, development of all the required screens with functionality following the design given, implementing serverless functions for captcha and form handling, integrating feedback and deploying the website with domain setup.",
+        "link": "https://dhiyo.ai/"
       },
       {
-        "name": "Sentinel",
-        "duration": "AUGUST 2022 - PRESENT",
-        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games.",
-        "link": "https://sentinel.rebitgo.com/"
+        "name": "Dhiyo Jio Phone App",
+        "duration": "MARCH 2021",
+        "description": "I worked on the frontend development of a Jio Phone application for Dhiyo which included the essence of the platform with minimal features. The application had to be built keeping in mind the limited screensize and functionalities of a keypad phone. This application was tested on the phone and sent to the Jio Team for publishing."
       },
       {
-        "name": "Sentinel",
-        "duration": "AUGUST 2022 - PRESENT",
-        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games.",
-        "link": "https://sentinel.rebitgo.com/"
+        "name": "Dhiyo Job Fair Platform",
+        "duration": "MARCH 2021",
+        "description": "I worked on the frontend development of a Job Fair web platform for Dhiyo where attendees of a job fair could register and apply to jobs with their resumes in a job fair. Factors such as low network connectivity, offline persistence and other aspects of a crowded limited network access place had to be considered while developing this portal."
       }
     ]
   }

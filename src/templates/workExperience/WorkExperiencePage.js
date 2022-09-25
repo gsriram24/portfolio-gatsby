@@ -3,6 +3,8 @@ import WorkExperienceLeft from './WorkExperienceLeft';
 import WorkExperienceRight from './WorkExperienceRight';
 import Layout from '../../components/Layout';
 import SEO from '../../components/SEO';
+import '../../css/tailwind.css';
+import '../../pages/index.css';
 export const query = graphql`
   query($slug: String!) {
     workExperienceJson(slug: { eq: $slug }) {
