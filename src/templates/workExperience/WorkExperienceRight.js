@@ -27,7 +27,7 @@ const WorkExperienceRight = ({
   return (
     <ThemeContext.Consumer>
       {({ darkMode }) => (
-        <motion.div className="w-full overflow-hidden xl:w-11/12">
+        <motion.div className="w-full overflow-hidden xl:w-11/12 pb-16">
           <motion.div
             variants={tileVariants}
             initial="hidden"
@@ -35,17 +35,18 @@ const WorkExperienceRight = ({
           >
             {workExperience?.length && (
               <div
-                className={`lg:pt-16 ${
+                className={`pt-16 ${
                   projects?.length ||
                   awards?.length ||
                   otherResponsibilities?.length
                     ? ''
-                    : 'h-screen'
+                    : 'lg:h-screen'
                 }`}
                 id="experience"
               >
                 {workExperience?.map(work => (
                   <GenericTile
+                    key={work.title}
                     title={work.title}
                     tags={[work.duration]}
                     description={work.description}
@@ -56,16 +57,17 @@ const WorkExperienceRight = ({
             )}
             {projects?.length && (
               <div
-                className={`lg:pt-16 ${
+                className={`pt-16 ${
                   awards?.length || otherResponsibilities?.length
                     ? ''
-                    : 'h-screen'
+                    : 'lg:h-screen'
                 }`}
                 id="projects"
               >
                 {projects?.map(project => (
                   <>
                     <GenericTile
+                      key={project.name}
                       title={project.name}
                       tags={[project.duration]}
                       description={project.description}
@@ -136,13 +138,14 @@ const WorkExperienceRight = ({
             )}
             {awards?.length && (
               <div
-                className={`lg:pt-16 ${
-                  otherResponsibilities?.length ? '' : 'h-screen'
+                className={`pt-16 ${
+                  otherResponsibilities?.length ? '' : 'lg:h-screen'
                 }`}
                 id="awards"
               >
                 {awards?.map(award => (
                   <GenericTile
+                    key={award.title}
                     title={award.title}
                     tags={[award.duration]}
                     description={award.description}
@@ -152,9 +155,10 @@ const WorkExperienceRight = ({
               </div>
             )}
             {otherResponsibilities?.length && (
-              <div className="lg:pt-16 lg:h-screen" id="other">
+              <div className="pt-16 lg:h-screen" id="other">
                 {otherResponsibilities?.map(responsibility => (
                   <GenericTile
+                    key={responsibility.title}
                     title={responsibility.title}
                     tags={[responsibility.duration]}
                     description={responsibility.description}

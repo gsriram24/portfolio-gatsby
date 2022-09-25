@@ -49,7 +49,7 @@ const WorkExperienceLeft = ({ workExperience }) => {
         <>
           <Hero data={heroData} darkMode={darkMode} />
           <NavContainer links={links} darkMode={darkMode} />
-          <div>
+          <div className="hidden mb-10 lg:block">
             <Link
               to="/"
               className={`inline-flex link-${
