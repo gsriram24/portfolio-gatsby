@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../Hero';
 import { ThemeContext } from '../../context/ThemeContext';
-import NavContainer from './NavContainer';
+import NavContainer from '../NavContainer';
 
 const IndexLeft = () => {
   const heroData = {
@@ -16,12 +16,30 @@ const IndexLeft = () => {
       </span>
     ),
   };
+  const links = [
+    {
+      name: 'WORK EXPERIENCE',
+      link: '#experience',
+    },
+    {
+      name: 'PROJECTS',
+      link: '#projects',
+    },
+    {
+      name: 'SKILLS',
+      link: '#skills',
+    },
+    {
+      name: 'CONTACT',
+      link: '#contact',
+    },
+  ];
   return (
     <ThemeContext.Consumer>
       {({ darkMode }) => (
         <>
           <Hero data={heroData} darkMode={darkMode} />
-          <NavContainer darkMode={darkMode} />
+          <NavContainer links={links} darkMode={darkMode} />
         </>
       )}
     </ThemeContext.Consumer>

@@ -6206,6 +6206,11 @@ gatsby-plugin-page-creator@^2.4.0:
     graphql "^14.7.0"
     lodash "^4.17.20"
 
+gatsby-plugin-page-progress@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-page-progress/-/gatsby-plugin-page-progress-2.2.1.tgz#11c6c848768a9532f631288bffc8a58a63a91454"
+  integrity sha512-ItrUyMQOyhMjtEsJ+IKQVKNJ7qa+8E4P16mQSPd1fsxTUcmEn5vNT47pCVnePjT5MuxarFRTbvy1mcHARgp0ew==
+
 gatsby-plugin-postcss@^3.0.4:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss/-/gatsby-plugin-postcss-3.1.0.tgz#cd70237fa024db22cd264215ecf10f48cc3bb666"

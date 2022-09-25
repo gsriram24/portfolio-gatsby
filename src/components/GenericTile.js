@@ -7,7 +7,7 @@ const GenericTile = ({ title, tags, description, footer, darkMode }) => {
   const bgColor = !darkMode ? 'light' : 'dark';
   return (
     <div
-      className={`w-full project-tile flex flex-col justify-center min-h-56 sm:h-48 bg-secondary-${bgColor} mb-2 px-8 lg:px-10 xl:px-12 py-6 text-${
+      className={`w-full project-tile flex flex-col justify-center min-h-56 sm:min-h-48 bg-secondary-${bgColor} mb-2 px-8 lg:px-10 xl:px-12 py-10 text-${
         footer ? 'accent' : 'primary'
       }-${textColor}`}
     >

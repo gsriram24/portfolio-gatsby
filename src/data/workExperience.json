@@ -3,14 +3,87 @@
     "slug": "betsol",
     "companyName": "BETSOL",
     "summary": "Currently working as an Associate Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer.",
-    "description": "A website tailored to the need of a passionate post-production studio: colorful, graphic intensive and animation heavy. This 4 page website was developed using React, with animations created using GSAP and styled with TailwindCSS. Contentful CMS was used to store and display projects with YouTube video embeds across the webstie.",
-    "duration": "JULY 2021 - PRESENT"
+    "description": "Working as an Associate Software Engineer at BETSOL, a data management and intelligent automation company offering products and solutions to both enterprises and consumers. I worked on BETSOL's new SaaS platform, Sentinel mainly but not limited as a frontend developer starting from the R&D phase which invovled researching on various solutions useful for the project and using them in development.",
+    "duration": "JULY 2021 - PRESENT",
+    "keyFocus": "ReactJS, Redux, NodeJS, Material UI, Auth0, Agile/SAFe",
+    "workExperience": [
+      {
+        "title": "Associate Software Engineer",
+        "duration": "JULY 2021 - PRESENT",
+        "description": "Currently working as an Associate Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Sentinel",
+        "duration": "AUGUST 2022 - PRESENT",
+        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games.",
+        "link": "https://sentinel.rebitgo.com/"
+      }
+    ],
+    "awards": [
+      {
+        "title": "Spot Award",
+        "duration": "FEBRUARY 2022",
+        "description": "Was awarded the Spot Award to recognize efforts put into researching new frameworks and services and building POCs during the R&D phase of Sentinel."
+      },
+      {
+        "title": "Team Excellence - Sentinel",
+        "duration": "APRIL 2022",
+        "description": "The team excellence award was awarded to the Sentinel team for building the initial version of SaaS platform with multiple features within a short period of time."
+      },
+      {
+        "title": "Team Excellence - Campus recruitment",
+        "duration": "JULY 2022",
+        "description": "Was part of the campus interview panel team which won the team excellence award for interviewing 10,000 students from 160 colleges pan India. "
+      }
+    ],
+    "otherResponsibilities": [
+      {
+        "title": "Campus Training",
+        "duration": "JULY 2022",
+        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games."
+      },
+      {
+        "title": "Internship Mentoring",
+        "duration": "JULY 2022 - PRESENT",
+        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games."
+      }
+    ]
   },
   {
     "slug": "dhiyo-ai",
     "companyName": "Dhiyo",
-    "summary": "A graphic intensive website filled with animations for a post-production studio based in Mumbai.",
+    "summary": "Interned at Dhiyo.ai, working on various core projects.",
     "description": "A website tailored to the need of a passionate post-production studio: colorful, graphic intensive and animation heavy. This 4 page website was developed using React, with animations created using GSAP and styled with TailwindCSS. Contentful CMS was used to store and display projects with YouTube video embeds across the webstie.",
-    "duration": "DECEMBER 2020 - MARCH 2021"
+    "duration": "DECEMBER 2020 - MARCH 2021",
+    "keyFocus": "ReactJS, GatsbyJS, NodeJS, Material UI, TailwindCSS",
+    "workExperience": [
+      {
+        "title": "Software Engineer Intern",
+        "duration": "DECEMBER 2020 - MARCH 2021",
+        "description": "Currently working as an Associate Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Sentinel",
+        "duration": "AUGUST 2022 - PRESENT",
+        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games.",
+        "link": "https://sentinel.rebitgo.com/"
+      },
+      {
+        "name": "Sentinel",
+        "duration": "AUGUST 2022 - PRESENT",
+        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games.",
+        "link": "https://sentinel.rebitgo.com/"
+      },
+      {
+        "name": "Sentinel",
+        "duration": "AUGUST 2022 - PRESENT",
+        "description": "I am a programmer and an aspiring opensource developer from Bangalore, India looking to dive deep into ReactJS Development, Deep Learning and Flutter Development. I love racking my brain over challenges and puzzles and would like to be occupied all the time. I am also an avid gamer with countless hours on competitve games.",
+        "link": "https://sentinel.rebitgo.com/"
+      }
+    ]
   }
 ]

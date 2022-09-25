@@ -20,12 +20,34 @@ exports.createPages = async ({ actions: { createPage }, graphql }) => {
     './src/templates/project/ProjectPage.js'
   );
 
+  const workExperienceTemplate = require.resolve(
+    './src/templates/workExperience/WorkExperiencePage.js'
+  );
+
   pages.data.allProjectsJson.edges.forEach(edge => {
     createPage({
       path: `/projects/${edge.node.slug}/`,
       component: projectTemplate,
       context: {
         slug: edge.node.slug,
+      },
+    });
+  });
+  const workExperiencePages = await graphql(`
+    {
+      allWorkExperienceJson {
+        nodes {
+          slug
+        }
+      }
+    }
+  `);
+  workExperiencePages.data.allWorkExperienceJson.nodes.forEach(node => {
+    createPage({
+      path: `/experience/${node.slug}/`,
+      component: workExperienceTemplate,
+      context: {
+        slug: node.slug,
       },
     });
   });
