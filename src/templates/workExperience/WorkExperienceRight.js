@@ -76,7 +76,7 @@ const WorkExperienceRight = ({
                     {project.link && (
                       <div className="flex w-full justify-end">
                         <a
-                          className={`flex mb-4 text-primary-${
+                          className={`flex mb-6 text-primary-${
                             darkMode ? 'light' : 'dark'
                           }  flex-row link-${
                             darkMode ? 'light' : 'dark'
