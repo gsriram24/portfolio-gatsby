@@ -3,7 +3,7 @@
     "slug": "betsol",
     "companyName": "BETSOL",
     "summary": "Currently working as an Associate Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer.",
-    "description": "Working as an Associate Software Engineer at BETSOL, a data management and intelligent automation company offering products and solutions to both enterprises and consumers. I worked on BETSOL's new SaaS platform, Sentinel mainly but not limited as a frontend developer starting from the R&D phase which invovled researching on various solutions useful for the project and using them in development.",
+    "description": "Working as an Associate Software Engineer at BETSOL, a data management and intelligent automation company offering products and solutions to both enterprises and consumers. I worked on BETSOL's new SaaS platform, Sentinel, starting from the R&D phase involving research on various solutions useful for the project and later on as a frontend developer.",
     "duration": "JULY 2021 - PRESENT",
     "keyFocus": "ReactJS, Redux, NodeJS, Material UI, Auth0, Agile/SAFe",
     "workExperience": [
@@ -17,7 +17,7 @@
       {
         "name": "Sentinel",
         "duration": "AUGUST 2022 - PRESENT",
-        "description": "Sentinel is BETSOL's new SaaS platform for creating, managing and notifying subscriptions. It will enable a given user to view all of their devices’ backed-up data in one spot. <br /><br />Being a part of a brand new project, apart from being a frontend developer, I worked on a lot of R&D as well before the start of development. <br /><br />**Some of my contributions to the project include:** <br/><br />- Researching, documenting and building POCs for various subscription management services.<br/> - Researching, documenting and building POCs for various user management services.<br/>- Participated in product design and wireframing sessions.<br/>- Setup the intital codebase for the project including aspects like Material UI Global theme config, Sonarqube, etc. <br/>- Developed various features required strictly adhering to design and code quality guidelines. <br/>- Handled payment related features invloving using hosted components from payment gateways and adhering to the PCI Guidelines. <br/>- Implemented role-based access for the entire frontend application.",
+        "description": "Sentinel is BETSOL's new SaaS platform for creating, managing and notifying subscriptions. It will enable a given user to view all of their devices’ backed-up data in one spot. <br /><br />Being a part of a brand new project, apart from being a frontend developer, I worked on a lot of R&D as well before the start of development. <br /><br />**Some of my contributions to the project include:** <br/><br />- Researching, documenting and building POCs for various subscription management services.<br/> - Researching, documenting and building POCs for various user management services.<br/>- Participated in product design and wireframing sessions.<br/>- Set up the initial codebase for the project including aspects like Material UI Global theme config, Sonarqube, etc. <br/>- Developed various features required strictly adhering to design and code quality guidelines. <br/>- Handled payment related features involving using hosted components from payment gateways and adhering to the PCI Guidelines. <br/>- Implemented role-based access for the entire frontend application.",
         "link": "https://sentinel.rebitgo.com/"
       }
     ],
@@ -47,7 +47,7 @@
       {
         "title": "Internship Mentoring",
         "duration": "JULY 2022 - PRESENT",
-        "description": "I mentored multiple batches of interns on a new in-house product helping HRs onboard employees with ease. My responsibilites include overseeing the progress of the project, assigning tasks, teaching and mentoring when needed, taking technical decisions based on R&D performed and continuously evaluate the interns based on their performance."
+        "description": "I mentored multiple batches of interns on a new in-house product helping HRs onboard employees with ease. My responsibilities include overseeing the progress of the project, assigning tasks, teaching and mentoring when needed, taking technical decisions based on R&D performed and continuously evaluate the interns based on their performance."
       }
     ]
   },
