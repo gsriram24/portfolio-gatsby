@@ -23,6 +23,11 @@
     ],
     "awards": [
       {
+        "title": "Best Training Award - React",
+        "duration": "NOVEMBER 2022",
+        "description": "The best training award was nominated by the campus batch of 2022. Among all the training subjects and topics, training conducted for react was voted the best."
+      },
+      {
         "title": "Spot Award",
         "duration": "FEBRUARY 2022",
         "description": "Was awarded the Spot Award to recognize efforts put into researching new frameworks and services and building POCs during the R&D phase of Sentinel."
