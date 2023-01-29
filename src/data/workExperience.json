@@ -2,15 +2,20 @@
   {
     "slug": "betsol",
     "companyName": "BETSOL",
-    "summary": "Currently working as an Associate Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer.",
-    "description": "Working as an Associate Software Engineer at BETSOL, a data management and intelligent automation company offering products and solutions to both enterprises and consumers. I worked on BETSOL's new SaaS platform, Sentinel, starting from the R&D phase involving research on various solutions useful for the project and later on as a frontend developer.",
+    "summary": "Currently working as an Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer.",
+    "description": "Working as an Software Engineer at BETSOL, a data management and intelligent automation company offering products and solutions to both enterprises and consumers. I worked on BETSOL's new SaaS platform, Sentinel, starting from the R&D phase involving research on various solutions useful for the project and later on as a frontend developer.",
     "duration": "JULY 2021 - PRESENT",
     "keyFocus": "ReactJS, Redux, NodeJS, Material UI, Auth0, Agile/SAFe",
     "workExperience": [
       {
+        "title": "Software Engineer",
+        "duration": "JANUARY 2023 - PRESENT",
+        "description": "Currently working as an Software Engineer, working on BETSOL’s new SaaS platform with added roles and responsibilities such as, taking end to end ownership of features, being the point of contact between the frontend and UI/UX team, and playing a more active role in decision making."
+      },
+      {
         "title": "Associate Software Engineer",
-        "duration": "JULY 2021 - PRESENT",
-        "description": "Currently working as an Associate Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer."
+        "duration": "JULY 2021 - JANUARY 2023",
+        "description": "Worked as an Associate Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer."
       }
     ],
     "projects": [
