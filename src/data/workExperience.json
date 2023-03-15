@@ -3,27 +3,27 @@
     "slug": "betsol",
     "companyName": "BETSOL",
     "summary": "Currently working as a Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer.",
-    "description": "Working as a Software Engineer at BETSOL, a data management and intelligent automation company offering products and solutions to both enterprises and consumers. I worked on BETSOL's new SaaS platform, Sentinel, starting from the R&D phase involving research on various solutions useful for the project and later on as a frontend developer.",
+    "description": "As a Software Engineer at BETSOL, a leading data management and intelligent automation company, I had the opportunity to work on the company's new SaaS platform, Sentinel. My journey began with extensive R&D, where I conducted in-depth research on a variety of solutions that could benefit the project. As the project transitioned into the development phase, I took on the role of a frontend developer, leveraging my expertise in building intuitive and user-friendly interfaces.",
     "duration": "JULY 2021 - PRESENT",
     "keyFocus": "ReactJS, Redux, NodeJS, Material UI, Auth0, Agile/SAFe",
     "workExperience": [
       {
         "title": "Software Engineer",
         "duration": "JANUARY 2023 - PRESENT",
-        "description": "Currently working as a Software Engineer, working on BETSOL’s new SaaS platform with added roles and responsibilities such as, taking end to end ownership of features, being the point of contact between the frontend and UI/UX team, and playing a more active role in decision making."
+        "description": "As a Software Engineer at BETSOL, I am currently working on the company's new SaaS platform, Sentinel, taking ownership of features, liaising with the UI/UX team, and playing a key role in decision-making. In addition, I have mentored junior team members, improving team performance and individual growth. I also played a critical role in PI planning and sprint grooming sessions, dividing feature requirements into user stories and delegating tasks among the team."
       },
       {
         "title": "Associate Software Engineer",
         "duration": "JULY 2021 - JANUARY 2023",
-        "description": "Worked as an Associate Software Engineer on BETSOL’s new SaaS platform as a Frontend Developer."
+        "description": "Worked as an Associate Software Engineer on BETSOL’s new SaaS platform as a Frontend Developer, developing and building critical features during the initial phases of the project."
       }
     ],
     "projects": [
       {
         "name": "Sentinel",
         "duration": "AUGUST 2022 - PRESENT",
-        "description": "Sentinel is BETSOL's new SaaS platform for creating, managing and notifying subscriptions. It will enable a given user to view all of their devices’ backed-up data in one spot. <br /><br />Being a part of a brand new project, apart from being a frontend developer, I worked on a lot of R&D as well before the start of development. <br /><br />**Some of my contributions to the project include:** <br/><br />- Researching, documenting and building POCs for various subscription management services.<br/> - Researching, documenting and building POCs for various user management services.<br/>- Participated in product design and wireframing sessions.<br/>- Set up the initial codebase for the project including aspects like Material UI Global theme config, Sonarqube, etc. <br/>- Developed various features required strictly adhering to design and code quality guidelines. <br/>- Handled payment related features involving using hosted components from payment gateways and adhering to the PCI Guidelines. <br/>- Implemented role-based access for the entire frontend application.",
-        "link": "https://sentinel.rebitgo.com/"
+        "description": "Sentinel is BETSOL's new SaaS platform for creating, managing and notifying subscriptions. It will enable a given user to view, backup and restore all of their devices’ data in one spot. <br /><br />Being a part of a brand new project, apart from being a frontend developer, I worked on a lot of R&D as well before the start of development. <br /><br />Some of my contributions to the project include: <br/><br />- Researched, documented, and built POCs for various subscription management and user management services.<br/>- Actively contributed in critical product design and wireframing sessions, shaping the final product.<br/>- Set up the initial codebase for the project including aspects like finalizing the folder structure, Material UI Global theme config, Sonarqube, etc. <br/>- Developed and owned various features' end-to-end implementation, ensuring strict adherence to design and code quality guidelines. <br/>- Effectively handled payment-related features utilizing hosted components from payment gateways, while following the PCI guidelines. <br/>- Implemented role-based access and sectioning and routing logic for the entire frontend application.",
+        "link": "https://sentinel.zmanda.com/"
       }
     ],
     "awards": [

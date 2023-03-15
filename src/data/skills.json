@@ -5,9 +5,9 @@
     "icon": "../images/skills/html.png"
   },
   {
-    "title": "Python",
-    "skills": ["Python 3", "Pandas", "Matplotlib", "Seaborn"],
-    "icon": "../images/skills/python.png"
+    "title": "Frontend Frameworks",
+    "skills": ["React", "Tailwind CSS", "Gatsby", "Redux", "Material UI"],
+    "icon": "../images/skills/react.png"
   },
   {
     "title": "Cross Platform App Development",
@@ -15,14 +15,9 @@
     "icon": "../images/skills/flutter.png"
   },
   {
-    "title": "Frontend Frameworks",
-    "skills": ["React", "Tailwind CSS", "Gatsby", "Redux"],
-    "icon": "../images/skills/react.png"
-  },
-  {
-    "title": "Machine Learning and Deep Learning",
-    "skills": ["Scikit-Learn", "Tensorflow", "Keras", "Numpy"],
-    "icon": "../images/skills/tensorflow.png"
+    "title": "Python",
+    "skills": ["Python 3", "Pandas", "Matplotlib", "Seaborn"],
+    "icon": "../images/skills/python.png"
   },
   {
     "title": "Backend Development Frameworks",
@@ -30,8 +25,8 @@
     "icon": "../images/skills/node.png"
   },
   {
-    "title": "Database Management Systems",
-    "skills": ["MySQL", "MongoDB", "Firebase"],
-    "icon": "../images/skills/firebase.png"
+    "title": "Machine Learning and Deep Learning",
+    "skills": ["Scikit-Learn", "Tensorflow", "Keras", "Numpy"],
+    "icon": "../images/skills/tensorflow.png"
   }
 ]
