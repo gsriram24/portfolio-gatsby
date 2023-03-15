@@ -9,8 +9,8 @@ const IndexLeft = () => {
     title2: 'Sriram',
     body: (
       <span>
-        I am a developer based in Bangalore, India looking to dive deep into
-        Software Development and Deep Learning. This website gives a glimpse
+        I am an experienced Software and Frontend Developer with a focus on
+        delivering high-quality user experiences. This website gives a glimpse
         into my work demonstrating various skills that I have picked up through
         my never ending journey of learning new tools and technologies.
       </span>

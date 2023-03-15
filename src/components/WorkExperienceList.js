@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useStaticQuery } from 'gatsby';
 import WorkExperienceTile from './WorkExperienceTile';
+import { graphql } from 'gatsby';
 const WorkExperienceList = ({ darkMode }) => {
   const data = useStaticQuery(graphql`
     query {

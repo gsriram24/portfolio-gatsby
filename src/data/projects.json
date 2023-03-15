@@ -4,7 +4,7 @@
     "isFeatured": true,
     "projectName": "Company Portfolio for Postbox28",
     "summary": "A graphic intensive website filled with animations for a post-production studio based in Mumbai.",
-    "description": "A website tailored to the need of a passionate post-production studio: colorful, graphic intensive and animation heavy. This 4 page website was developed using React, with animations created using GSAP and styled with TailwindCSS. Contentful CMS was used to store and display projects with YouTube video embeds across the webstie.",
+    "description": "A graphic-intensive, animation-heavy website using React, GSAP, and TailwindCSS. Contentful CMS was used to showcase their impressive portfolio with YouTube video embeds. The website is a visual representation of Postbox28's creative vision, with every detail carefully considered for an immersive user experience.",
     "tags": ["frontend-development"],
     "featuredTags": ["Frontend Development"],
     "techStack": [
@@ -38,8 +38,8 @@
     "slug": "attendance-system",
     "isFeatured": true,
     "projectName": "Automated Attendance System using Facial Recognition",
-    "summary": "A university attendance system that uses facial recognition to aid professors with maintaining attendance record.",
-    "description": "This project is aimed to show a digitized attendance system for schools and universities to maintain attendance record for students. The Face Recognition REST API was built using Flask and the face_recognition library. An app was built using Flutter for professors to record attendance by clicking one or more photos of the class. An admin panel was built using React and Redux for the admins to manage students, teachers and classes. The backend for handling student, teacher, classes and attendance data was built using Node.js/Express.js. MongoDB was used as the database. Known photos of students are stored in Firebase Cloud Storage",
+    "summary": "A university attendance system that uses facial recognition technology to streamline the attendance-taking process for professors and improve accuracy.",
+    "description": "This project showcases digitized attendance system designed for schools and universities, powered by a Face Recognition REST API using Flask and face_recognition library. An app built with Flutter enables professors to easily record attendance, while an admin panel built with React and Redux manages student, teacher, and class data. The system's backend, built with Node.js/Express.js and MongoDB, handles all data including attendance records. Student photos are securely stored in Firebase Cloud Storage.",
     "tags": [
       "frontend-development",
       "backend-development",
@@ -90,7 +90,7 @@
     "isFeatured": true,
     "projectName": "League Registration Portal for PPR Esports",
     "summary": "Development of a full stack application for PPR Esports, a Sim Racing esports organization.",
-    "description": "This fullstack application is aimed to allow PPR Esports to host their tournaments online and have users to register for it. It also includes an admin panel for the admins to manage their users and leagues. The backend was built using Node.js/Express.js along with Discord Authentication. MongoDB was used as the database. The frontend was built using React.js with Redux for state management. ",
+    "description": "This full-stack application was developed to enable PPR Esports to host hundreds of online tournaments and allow thousands of users to register for them. It includes an admin panel for managing users and leagues. The backend was built using Node.js/Express.js with Discord Authentication, and MongoDB was used as the database. The frontend was developed using React.js with Redux for state management.",
     "tags": ["frontend-development", "backend-development"],
     "featuredTags": ["Fullstack Development"],
     "techStack": [
@@ -134,8 +134,8 @@
     "slug": "karankowshik-portfolio",
     "isFeatured": true,
     "projectName": "Portfolio Website for Karan Kowshik",
-    "summary": "Development of a portfolio website for Karan Kowshik, UI/UX and Web Designer. ",
-    "description": "This project involved the development a responsive portfolio website for Karan Kowshik. To develop a full fledged portfolio website with dynamically generated pages, GatsbyJS was used. Major part of styling and layout was done using TailwindCSS. Framer Motion was used to create the animations seen in the website.",
+    "summary": "Developed a portfolio website for Karan Kowshik, a UI/UX and Web Designer, to showcase his work and skills.",
+    "description": "This project entailed crafting a highly responsive portfolio website for Karan Kowshik, a distinguished UI/UX and Web Designer. GatsbyJS was leveraged to realize a fully-functional portfolio website, with dynamically generated pages that ensures a highly-engaging and seamless user experience. The website's overall design and layout was bolstered using TailwindCSS, while Framer Motion was utilized to add an extra layer of visual appeal with its animations.",
     "tags": ["frontend-development"],
     "featuredTags": ["Frontend Development"],
     "techStack": [
@@ -171,8 +171,8 @@
     "slug": "substitute_teacher_management",
     "isFeatured": false,
     "projectName": "Substitue Teacher Management",
-    "summary": "An app built using Flutter to efficiently find substitute teachers in an educational environment.",
-    "description": "This is a mobile application built to help admins of an institution to find and inform substitute teachers efficiently. Using this app, the admin can view a list of substitute teachers generated based on a few constraints for any given teacher, on any given day. Upon choosing the substitute teacher, the admin has the option to notify the teacher via E-Mail regarding the same.",
+    "summary": "A Flutter app designed to efficiently locate substitute teachers in educational institutions.",
+    "description": "Crafted with a keen eye towards the needs of educational institutions, this sophisticated mobile application empowers administrators to efficiently manage teacher absences and substitutions. Its powerful algorithm generates a list of qualified substitute teachers based on customized criteria, thereby allowing administrators to easily identify and choose the most suitable candidate. In addition, the application seamlessly integrates with email functionality, enabling administrators to swiftly notify selected substitutes and keep the academic calendar running like clockwork.",
     "tags": ["cross-app-development"],
     "featuredTags": ["App Development"],
     "techStack": [
@@ -197,8 +197,8 @@
     "slug": "seefood",
     "isFeatured": false,
     "projectName": "SeeFood",
-    "summary": "An App built using Flutter and Tensorflow Lite to detect 10 different food classes.",
-    "description": "Inspired by the show Sillicon Valley, SeeFood is an application built using Flutter and Tensorflow Lite to classify 10 different types of food and show their respective recipes. To achieve this, an Image Classification Model (Mobilenet V2) was trained using Tensorflow and Keras. Then the model was convereted to the Tensorflow Lite format for on-device inference. Finally, a mobile application built using Flutter, using the tflite library for offline inference",
+    "summary": "A Flutter mobile app powered by Tensorflow Lite, capable of identifying 10 different food classes",
+    "description": "SeeFood is an ingenious application inspired by the popular show Silicon Valley, designed to identify and classify 10 distinct types of food and provide their corresponding recipes using Flutter and Tensorflow Lite. It incorporates an Image Classification Model (Mobilenet V2), trained with Tensorflow and Keras, to recognize food items. The model was then converted to the Tensorflow Lite format for efficient on-device inference, while the mobile app built with Flutter utilized the tflite library for seamless offline inference.",
     "tags": ["deep-learning", "cross-app-development"],
     "featuredTags": ["Deep Learning", "App Development"],
     "techStack": [
@@ -228,7 +228,7 @@
     "isFeatured": false,
     "projectName": "CrowdRepel",
     "summary": "A Deep Learning and GeoLocation based service that enables users and organizations to help maintain physical distance.",
-    "description": "CrowdRepel is a Deep Learning and GeoLocation based service that aims to enable users and organizations to maintain the appropriate physical distance and avoid contracting the Coronavirus. A Pytorch Object Detection model (IterDet) to perform person detection in highly crowded environments was trained to get the people count through CCTV cameras. To flag social distancing violations, an algorithm using Perspective Transformation was written. An end user application was built using the MERN stack to provide Crowd Density Analytics to common people.",
+    "description": "CrowdRepel is a cutting-edge solution leveraging Deep Learning and GeoLocation technologies to help individuals and organizations maintain appropriate physical distancing and prevent the spread of COVID-19. This innovative service utilizes a Pytorch Object Detection model (IterDet) to accurately detect and count people in highly crowded environments using CCTV cameras. Additionally, an advanced algorithm utilizing Perspective Transformation was developed to flag social distancing violations. The end-user application, built using the MERN stack, provides insightful Crowd Density Analytics to empower individuals to make informed decisions and stay safe.",
     "tags": [
       "deep-learning",
       "frontend-development",
@@ -277,8 +277,8 @@
     "slug": "easytravel",
     "isFeatured": false,
     "projectName": "EasyTravel",
-    "summary": "A simple mobile application to show the working of an online ticketing system for daily public transport.",
-    "description": "Easy Travel is an application built using React Native and Node.js to show the working of a cashless ticketing system for daily public transport. Using this app, Daily commuters can scan a QR Code associated with a bus and select their journey details, and a ticket would be generated calculating the cost of the journey.",
+    "summary": "A react native application showcasing the functionality of a cashless online ticketing system for daily public transport.",
+    "description": "Easy Travel is a mobile application developed using React Native and Node.js that enables daily commuters to experience the convenience of a cashless ticketing system for public transport. With the app, users can simply scan a QR code assigned to the bus, select their travel details, and generate a ticket with the cost of their journey. Say goodbye to the hassle of carrying cash and counting change during daily commute, and say hello to the seamless experience of Easy Travel.",
     "tags": ["cross-app-development", "backend-development"],
     "featuredTags": ["App Development", "Backend Development"],
     "techStack": [
@@ -309,8 +309,8 @@
     "slug": "hobbyit",
     "isFeatured": false,
     "projectName": "HobbyIt",
-    "summary": "A mobile application to connect people having similar interests.",
-    "description": "HobbyIt is a mobile application built to connect people having similar interests. The application was built using React Native and various services of Firebase such as Cloud Firestore, Auth and Cloud Storage were used for the backend. Using this app, people who register can find a list of people who have one or more common interests.",
+    "summary": "An app to connect individuals with shared interests through a user-friendly mobile interface.",
+    "description": "HobbyIt is a mobile application developed with React Native that connects individuals sharing similar interests, thus fostering a sense of community among them. The app utilizes the powerful features of Firebase such as Cloud Firestore, Auth, and Cloud Storage for seamless backend management. HobbyIt empowers users to effortlessly find and interact with like-minded individuals, opening up new avenues for personal growth and meaningful connections.",
     "tags": ["cross-app-development"],
     "featuredTags": ["App Development"],
     "techStack": [
@@ -337,8 +337,8 @@
     "slug": "iclog",
     "isFeatured": false,
     "projectName": "ICLog",
-    "summary": "A GUI based desktop application to manage components in Labs.",
-    "description": "ICLog is a Desktop Application consisting of Admin Panel and Student Panel built using PyQT5 to help lab in-charges manage lab components. A student in a given lab can request for one or more components that are available in stock, and the admin/incharge can approve or reject their request. The admin can also view the transaction history, or pending transactions in their dashboard. User details, component details and transaction history managed by MySQL.",
+    "summary": "A PyQT5-based desktop application for managing lab components with a user-friendly GUI.",
+    "description": "ICLog is a sophisticated desktop application consisting of a student panel and admin panel, meticulously crafted using PyQT5 to simplify the management of lab components. Using the student panel, students can request lab components from available stock, while the admin panel allows in-charges to approve or reject requests, view transaction history, and track pending transactions. All relevant user details, component information, and transaction records are securely managed by a MySQL database.",
     "tags": ["python"],
     "featuredTags": ["Python"],
     "techStack": [
