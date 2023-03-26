@@ -83,7 +83,7 @@
       "../images/projects/AttendanceSystem/Attendance2.png",
       "../images/projects/AttendanceSystem/Attendance3.png"
     ],
-    "github": "https://github.com/sgcuber24/attendance_system_face_recognition_api"
+    "github": "https://github.com/gsriram24/attendance_system_face_recognition_api"
   },
   {
     "slug": "ppresports-portal",
@@ -190,7 +190,7 @@
       "../images/projects/Substitute/Substitute2.png"
     ],
     "demo": "",
-    "github": "https://github.com/sgcuber24/substitute_teacher_management"
+    "github": "https://github.com/gsriram24/substitute_teacher_management"
   },
 
   {
@@ -220,7 +220,7 @@
       "../images/projects/SeeFood/SeeFood1.png"
     ],
     "demo": "",
-    "github": "https://github.com/sgcuber24/see_food"
+    "github": "https://github.com/gsriram24/see_food"
   },
 
   {
@@ -270,7 +270,7 @@
       "../images/projects/CrowdRepel/CrowdRepel4.png"
     ],
     "demo": "https://crowd-repel.herokuapp.com/",
-    "github": "https://github.com/sgcuber24/crowd-repel-react"
+    "github": "https://github.com/gsriram24/crowd-repel-react"
   },
 
   {
@@ -302,7 +302,7 @@
       "../images/projects/EasyTravel/easytravel2.png"
     ],
     "demo": "",
-    "github": "https://github.com/sgcuber24/EasyBMTC"
+    "github": "https://github.com/gsriram24/EasyBMTC"
   },
 
   {
@@ -330,7 +330,7 @@
       "../images/projects/HobbyIt/hobbyit4.png"
     ],
     "demo": "",
-    "github": "https://github.com/sgcuber24/hobbyit"
+    "github": "https://github.com/gsriram24/hobbyit"
   },
 
   {
@@ -361,6 +361,6 @@
       "../images/projects/ICLog/ICLog1.png"
     ],
     "demo": "",
-    "github": "https://github.com/sgcuber24/ic-log"
+    "github": "https://github.com/gsriram24/ic-log"
   }
 ]

@@ -36,7 +36,7 @@ npm install -g gatsby-cli
 2. Clone the repository and go into the working directory
 
 ```console
-git clone https://github.com/sgcuber24/portfolio-gatsby.git
+git clone https://github.com/gsriram24/portfolio-gatsby.git
 cd portfolio-gatsby
 ```
 

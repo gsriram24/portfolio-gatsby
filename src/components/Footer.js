@@ -7,7 +7,7 @@ const Footer = ({ darkMode }) => {
       <div className="flex flex-wrap">
         <a
           className={`flex mt-4 link-${textColor} mr-6 lg:mr-10 flex-row items-center`}
-          href="https://github.com/sgcuber24"
+          href="https://github.com/gsriram24"
           target="_blank"
           rel="noopener noreferrer"
         >
