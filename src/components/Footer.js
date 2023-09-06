@@ -80,7 +80,7 @@ const Footer = ({ darkMode }) => {
         </a>
         <a
           className={`flex mt-4 link-${textColor} mr-6 lg:mr-10 flex-row items-center`}
-          href="https://resume.creddle.io/resume/657k02y9xfn"
+          href="https://drive.google.com/file/d/12edOMqi3L_D1poXKup5NYzqL1_DgFxcM/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
         >
