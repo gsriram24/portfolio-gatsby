@@ -28,6 +28,11 @@
     ],
     "awards": [
       {
+        "title": "Above and Beyond Award",
+        "duration": "OCTOBER 2023",
+        "description": "Received the above and beyond award for continued efforts towards the frontend codebase of Sentinel. This award was awarded for recognizing efforts in taking ownership of multiple features and modules of the project and performing R&D and improving the performance of the codbase as well as mentoring of juniors."
+      },
+      {
         "title": "Best Training Award - React",
         "duration": "NOVEMBER 2022",
         "description": "The best training award was nominated by the campus batch of 2022. Among all the training subjects and topics, training conducted for react was voted the best."
