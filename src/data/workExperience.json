@@ -1,16 +1,39 @@
 [
   {
+    "slug": "highlevel",
+    "companyName": "HighLevel",
+    "summary": "Currently working as a Software Development Engineer - II at GoHighLevel, working as a fullstack developer.",
+    "description": "At HighLevel (all-in-one marketing CRM), I leveraged my experience building core features for their Funnels & Websites builder to specialize in Ecommerce, Order forms and payment related integrations. This involved developing a robust inventory management system, diverse shipping options, and seamless payment processing directly within the builder. These technical contributions transformed HighLevel's website builder into a powerful Ecommerce platform, empowering businesses to manage online stores and streamline the entire sales process within their existing funnels and websites.",
+    "duration": "DECEMBER 2023 - PRESENT",
+    "keyFocus": "Vue.js, Nuxt.js, NodeJS, NestJS, TailwindCSS, GCP, Jenkins",
+    "workExperience": [
+      {
+        "title": "Software Development Engineer - II",
+        "duration": "DECEMBER 2023 - PRESENT",
+        "description": "As a Software Development Engineer at HighLevel, I specialize in Ecommerce, Order forms and payment related integrations. I have developed a robust inventory management system, diverse shipping options, and seamless payment processing directly within the builder. These technical contributions transformed HighLevel's website builder into a powerful Ecommerce platform, empowering businesses to manage online stores and streamline the entire sales process within their existing funnels and websites."
+      }
+    ],
+    "projects": [],
+    "awards": [
+      {
+        "title": "Level Up Award - Nominee",
+        "duration": "FEBRUARY 2024",
+        "description": "Nominated for the Level Up Award for consistently delivering high-quality code and taking quick ownership of critical features and modules of the Ecommerce module with little to know learning time."
+      }
+    ]
+  },
+  {
     "slug": "betsol",
     "companyName": "BETSOL",
-    "summary": "Currently working as a Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer.",
+    "summary": "Worked as a Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer.",
     "description": "As a Software Engineer at BETSOL, a leading data management and intelligent automation company, I had the opportunity to work on the company's new SaaS platform, Sentinel. My journey began with extensive R&D, where I conducted in-depth research on a variety of solutions that could benefit the project. As the project transitioned into the development phase, I took on the role of a frontend developer, leveraging my expertise in building intuitive and user-friendly interfaces.",
-    "duration": "JULY 2021 - PRESENT",
+    "duration": "JULY 2021 - NOVEMBER 2023",
     "keyFocus": "ReactJS, Redux, NodeJS, Material UI, Auth0, Agile/SAFe",
     "workExperience": [
       {
         "title": "Software Engineer",
-        "duration": "JANUARY 2023 - PRESENT",
-        "description": "As a Software Engineer at BETSOL, I am currently working on the company's new SaaS platform, Sentinel, taking ownership of features, liaising with the UI/UX team, and playing a key role in decision-making. In addition, I have mentored junior team members, improving team performance and individual growth. I also played a critical role in PI planning and sprint grooming sessions, dividing feature requirements into user stories and delegating tasks among the team."
+        "duration": "JANUARY 2023 - NOVEMBER 2023",
+        "description": "As a Software Engineer at BETSOL, I worked on the company's new SaaS platform, Sentinel, taking ownership of features, liaising with the UI/UX team, and playing a key role in decision-making. In addition, I have mentored junior team members, improving team performance and individual growth. I also played a critical role in PI planning and sprint grooming sessions, dividing feature requirements into user stories and delegating tasks among the team."
       },
       {
         "title": "Associate Software Engineer",
@@ -21,7 +44,7 @@
     "projects": [
       {
         "name": "Sentinel",
-        "duration": "AUGUST 2022 - PRESENT",
+        "duration": "AUGUST 2022 - NOVEMBER 2023",
         "description": "Sentinel is BETSOL's new SaaS platform for creating, managing and notifying subscriptions. It will enable a given user to view, backup and restore all of their devices’ data in one spot. <br /><br />Being a part of a brand new project, apart from being a frontend developer, I worked on a lot of R&D as well before the start of development. <br /><br />Some of my contributions to the project include: <br/><br />- Researched, documented, and built POCs for various subscription management and user management services.<br/>- Actively contributed to critical product design and wireframing sessions, shaping the final product.<br/>- Set up the initial codebase for the project including aspects like finalizing the folder structure, Material UI Global theme config, Sonarqube, etc. <br/>- Developed and owned various features' end-to-end implementation, ensuring strict adherence to design and code quality guidelines. <br/>- Effectively handled payment-related features utilizing hosted components from payment gateways, while following the PCI guidelines. <br/>- Implemented role-based access and sectioning and routing logic for the entire frontend application.",
         "link": "https://sentinel.zmanda.com/"
       }
