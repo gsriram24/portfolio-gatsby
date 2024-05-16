@@ -13,7 +13,14 @@
         "description": "As a Software Development Engineer at HighLevel, I specialize in Ecommerce, Order forms and payment related integrations. I have developed a robust inventory management system, diverse shipping options, and seamless payment processing directly within the builder. These technical contributions transformed HighLevel's website builder into a powerful Ecommerce platform, empowering businesses to manage online stores and streamline the entire sales process within their existing funnels and websites."
       }
     ],
-    "projects": [],
+    "projects": [
+      {
+        "name": "Funnels & Websites Builder - Ecommerce",
+        "duration": "DECEMBER 2023 - PRESENT",
+        "description": "As part of the team at HighLevel, I specialized in enhancing the Funnels & Websites builder with advanced Ecommerce functionalities. My contributions included: <br><br>- Integrated comprehensive Ecommerce features such as order forms and payment processing to enable businesses to create and manage online stores seamlessly within their existing funnels and websites. <br><br>- Built a robust inventory management system to track stock levels and manage product details efficiently, improving operational efficiency for businesses using HighLevel. <br><br>- Integrated various shipping solutions, including different carriers and methods, to provide flexibility and convenience for customers, thereby enhancing logistical flexibility for businesses. <br><br>- Developed secure payment processing features that support multiple payment methods, allowing businesses to handle transactions efficiently and boosting customer trust. <br><br>- Enhanced the website builder with advanced Ecommerce functionalities such as inventory management, shipping options, and payment processing, transforming it into a powerful Ecommerce platform and empowering businesses to streamline their sales processes effectively. <br><br>",
+        "link": "https://help.gohighlevel.com/support/solutions/articles/155000001157-how-to-set-up-an-e-commerce-online-store-websites-"
+      }
+    ],
     "awards": [
       {
         "title": "Level Up Award - Nominee",
