@@ -3,14 +3,14 @@
     "slug": "highlevel",
     "companyName": "HighLevel",
     "summary": "Currently working as a Software Development Engineer - II at GoHighLevel, working as a fullstack developer.",
-    "description": "At HighLevel (all-in-one marketing CRM), I leveraged my experience building core features for their Funnels & Websites builder to specialize in Ecommerce, Order forms and payment-related integrations. This involved developing a robust inventory management system, diverse shipping options, and seamless payment processing directly within the builder. These technical contributions transformed HighLevel's website builder into a powerful Ecommerce platform, empowering businesses to manage online stores and streamline the entire sales process within their existing funnels and websites.",
+    "description": "At HighLevel (all-in-one marketing CRM), I leveraged my experience building core features for the Funnels & Websites Builder, specializing in both the Ecommerce platform and Funnel Builder core enhancements. This involved building a robust inventory management system, integrating diverse shipping and payment options, and transforming the website builder into a scalable Ecommerce solution. Simultaneously, I contributed to core improvements in the funnel builder, such as design system integration, SEO automation, and user experience enhancements — enabling teams to create high-converting funnels and websites more efficiently.",
     "duration": "DECEMBER 2023 - PRESENT",
     "keyFocus": "Vue.js, Nuxt.js, NodeJS, NestJS, TailwindCSS, GCP, Jenkins",
     "workExperience": [
       {
         "title": "Software Development Engineer - II",
         "duration": "DECEMBER 2023 - PRESENT",
-        "description": "As a Software Development Engineer at HighLevel, I specialize in Ecommerce, Order forms and payment-related integrations. I have developed a robust inventory management system, diverse shipping options, and seamless payment processing directly within the builder. These technical contributions transformed HighLevel's website builder into a powerful Ecommerce platform, empowering businesses to manage online stores and streamline the entire sales process within their existing funnels and websites."
+        "description": "As a Software Development Engineer at HighLevel, I specialize in both Ecommerce and Funnel Builder Core enhancements. I’ve developed a robust inventory management system, integrated diverse shipping and payment flows, and enhanced the platform’s performance and flexibility. In parallel, I worked on improving core builder components including design system integration, SEO automation, and UX features — all contributing to a highly scalable and conversion-oriented builder experience."
       }
     ],
     "projects": [
