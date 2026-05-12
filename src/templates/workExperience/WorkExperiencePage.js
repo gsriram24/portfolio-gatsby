@@ -9,6 +9,7 @@ import { graphql } from 'gatsby';
 export const query = graphql`
   query ($slug: String!) {
     workExperienceJson(slug: { eq: $slug }) {
+      keywords
       workExperience {
         title
         duration
@@ -47,6 +48,7 @@ const WorkExperiencePage = ({
       <SEO
         title={`${workExperience.companyName} | Work Experience | G Sriram`}
         description={workExperience.description}
+        keywords={workExperience.keywords}
       />
       <Layout
         left={<WorkExperienceLeft workExperience={workExperience} />}

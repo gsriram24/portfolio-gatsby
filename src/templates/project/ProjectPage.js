@@ -9,6 +9,7 @@ import SEO from '../../components/SEO';
 export const query = graphql`
   query($slug: String!) {
     projectsJson(slug: { eq: $slug }) {
+      keywords
       description
       github
       projectName
@@ -47,6 +48,7 @@ const ProjectPage = ({ data }) => {
       <SEO
         title={`${project.projectName} | Projects | G Sriram`}
         description={project.description}
+        keywords={project.keywords}
       />
       <Layout
         left={

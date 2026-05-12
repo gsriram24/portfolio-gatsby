@@ -2,6 +2,7 @@
   {
     "slug": "highlevel",
     "companyName": "HighLevel",
+    "keywords": ["GoHighLevel", "HighLevel", "Vue.js", "Nuxt.js", "Node.js", "NestJS", "TailwindCSS", "GCP", "Jenkins", "LangChain", "OpenAI", "Playwright", "Vitest", "Cursor", "Claude", "schema markup", "page builder", "ecommerce", "AI copilot", "SaaS", "fullstack engineer", "frontend engineer", "SDE-III", "software engineer"],
     "summary": "Currently working as a Software Development Engineer - III at GoHighLevel, building large-scale features across the Funnels & Websites Builder, Ecommerce platform, and AI products.",
     "description": "At HighLevel (all-in-one marketing CRM), I have contributed across the full breadth of the Funnels & Websites platform — from building out the Ecommerce suite end-to-end, to architecting the Schema Markup product and leading frontend development on the Page Builder AI Copilot. My work spans product architecture, full-stack feature development, testing infrastructure, release management, and mentorship.",
     "duration": "DECEMBER 2023 - PRESENT",
@@ -48,6 +49,7 @@
   {
     "slug": "betsol",
     "companyName": "BETSOL",
+    "keywords": ["BETSOL", "React", "Redux", "Node.js", "Material UI", "Auth0", "SaaS", "subscription management", "Sentinel", "frontend engineer", "software engineer", "Agile", "SAFe"],
     "summary": "Worked as a Software Engineer working on BETSOL’s new SaaS platform as a Frontend Developer.",
     "description": "As a Software Engineer at BETSOL, a leading data management and intelligent automation company, I had the opportunity to work on the company's new SaaS platform, Sentinel. My journey began with extensive R&D, where I conducted in-depth research on a variety of solutions that could benefit the project. As the project transitioned into the development phase, I took on the role of a frontend developer, leveraging my expertise in building intuitive and user-friendly interfaces.",
     "duration": "JULY 2021 - NOVEMBER 2023",
@@ -115,6 +117,7 @@
   {
     "slug": "dhiyo-ai",
     "companyName": "Dhiyo",
+    "keywords": ["Dhiyo", "GatsbyJS", "React", "Node.js", "Material UI", "TailwindCSS", "software engineer intern", "frontend development", "company website"],
     "summary": "Interned at Dhiyo.ai, working on various core projects including the complete overhaul of Dhiyo's company website.",
     "description": "I worked as a Software Engineer Intern at Dhiyo.ai, a Multilingual Conversational AI Platform to Employ blue calller workers. I mainly worked on overhauling Dhiyo's company website rebuilding it with latest tools and technologies. I also worked on some of the side projects such as a Jio Phone version of Dhiyo and a job fair platform.",
     "duration": "DECEMBER 2020 - MARCH 2021",

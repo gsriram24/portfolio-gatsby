@@ -18,15 +18,5 @@
     "title": "LLM and AI-Assisted Development",
     "skills": ["Claude", "Cursor", "LangChain", "OpenAI API"],
     "icon": "../images/skills/ai.png"
-  },
-  {
-    "title": "Cross Platform App Development",
-    "skills": ["Dart", "Flutter", "React Native"],
-    "icon": "../images/skills/flutter.png"
-  },
-  {
-    "title": "Python",
-    "skills": ["Python 3", "Pandas", "Matplotlib", "Seaborn"],
-    "icon": "../images/skills/python.png"
   }
 ]

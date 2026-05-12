@@ -2,6 +2,7 @@
   {
     "slug": "postbox28",
     "isFeatured": true,
+    "keywords": ["React", "Tailwind CSS", "GSAP", "Contentful", "portfolio website", "animation", "frontend development", "post-production"],
     "projectName": "Company Portfolio for Postbox28",
     "summary": "A graphic intensive website filled with animations for a post-production studio based in Mumbai.",
     "description": "A graphic-intensive, animation-heavy website using React, GSAP, and TailwindCSS. Contentful CMS was used to showcase their impressive portfolio with YouTube video embeds. The website is a visual representation of Postbox28's creative vision, with every detail carefully considered for an immersive user experience.",
@@ -37,6 +38,7 @@
   {
     "slug": "attendance-system",
     "isFeatured": true,
+    "keywords": ["Flutter", "Flask", "React", "Redux", "Node.js", "MongoDB", "Firebase", "facial recognition", "deep learning", "fullstack", "attendance system"],
     "projectName": "Automated Attendance System using Facial Recognition",
     "summary": "A university attendance system that uses facial recognition technology to streamline the attendance-taking process for professors and improve accuracy.",
     "description": "This project showcases digitized attendance system designed for schools and universities, powered by a Face Recognition REST API using Flask and face_recognition library. An app built with Flutter enables professors to easily record attendance, while an admin panel built with React and Redux manages student, teacher, and class data. The system's backend, built with Node.js/Express.js and MongoDB, handles all data including attendance records. Student photos are securely stored in Firebase Cloud Storage.",
@@ -88,6 +90,7 @@
   {
     "slug": "ppresports-portal",
     "isFeatured": true,
+    "keywords": ["React", "Redux", "Tailwind CSS", "Node.js", "MongoDB", "esports", "tournament", "fullstack", "registration portal"],
     "projectName": "League Registration Portal for PPR Esports",
     "summary": "Development of a full stack application for PPR Esports, a Sim Racing esports organization.",
     "description": "This full-stack application was developed to enable PPR Esports to host hundreds of online tournaments and allow thousands of users to register for them. It includes an admin panel for managing users and leagues. The backend was built using Node.js/Express.js with Discord Authentication, and MongoDB was used as the database. The frontend was developed using React.js with Redux for state management.",
@@ -133,6 +136,7 @@
   {
     "slug": "karankowshik-portfolio",
     "isFeatured": true,
+    "keywords": ["Gatsby", "Tailwind CSS", "Framer Motion", "portfolio", "frontend development", "UI/UX", "animation"],
     "projectName": "Portfolio Website for Karan Kowshik",
     "summary": "Developed a portfolio website for Karan Kowshik, a UI/UX and Web Designer, to showcase his work and skills.",
     "description": "This project entailed crafting a highly responsive portfolio website for Karan Kowshik, a distinguished UI/UX and Web Designer. GatsbyJS was leveraged to realize a fully-functional portfolio website, with dynamically generated pages that ensures a highly-engaging and seamless user experience. The website's overall design and layout was bolstered using TailwindCSS, while Framer Motion was utilized to add an extra layer of visual appeal with its animations.",
@@ -170,6 +174,7 @@
   {
     "slug": "substitute_teacher_management",
     "isFeatured": false,
+    "keywords": ["Flutter", "Firebase", "mobile app", "education", "teacher management"],
     "projectName": "Substitue Teacher Management",
     "summary": "A Flutter app designed to efficiently locate substitute teachers in educational institutions.",
     "description": "Crafted with a keen eye towards the needs of educational institutions, this sophisticated mobile application empowers administrators to efficiently manage teacher absences and substitutions. Its powerful algorithm generates a list of qualified substitute teachers based on customized criteria, thereby allowing administrators to easily identify and choose the most suitable candidate. In addition, the application seamlessly integrates with email functionality, enabling administrators to swiftly notify selected substitutes and keep the academic calendar running like clockwork.",
@@ -196,6 +201,7 @@
   {
     "slug": "seefood",
     "isFeatured": false,
+    "keywords": ["Flutter", "Tensorflow", "Keras", "deep learning", "image classification", "mobile app", "TensorFlow Lite"],
     "projectName": "SeeFood",
     "summary": "A Flutter mobile app powered by Tensorflow Lite, capable of identifying 10 different food classes",
     "description": "SeeFood is an ingenious application inspired by the popular show Silicon Valley, designed to identify and classify 10 distinct types of food and provide their corresponding recipes using Flutter and Tensorflow Lite. It incorporates an Image Classification Model (Mobilenet V2), trained with Tensorflow and Keras, to recognize food items. The model was then converted to the Tensorflow Lite format for efficient on-device inference, while the mobile app built with Flutter utilized the tflite library for seamless offline inference.",
@@ -226,6 +232,7 @@
   {
     "slug": "crowdrepel",
     "isFeatured": false,
+    "keywords": ["React", "PyTorch", "OpenCV", "Node.js", "MongoDB", "deep learning", "object detection", "social distancing", "fullstack", "GeoLocation"],
     "projectName": "CrowdRepel",
     "summary": "A Deep Learning and GeoLocation based service that enables users and organizations to help maintain physical distance.",
     "description": "CrowdRepel is a cutting-edge solution leveraging Deep Learning and GeoLocation technologies to help individuals and organizations maintain appropriate physical distancing and prevent the spread of COVID-19. This innovative service utilizes a Pytorch Object Detection model (IterDet) to accurately detect and count people in highly crowded environments using CCTV cameras. Additionally, an advanced algorithm utilizing Perspective Transformation was developed to flag social distancing violations. The end-user application, built using the MERN stack, provides insightful Crowd Density Analytics to empower individuals to make informed decisions and stay safe.",
@@ -276,6 +283,7 @@
   {
     "slug": "easytravel",
     "isFeatured": false,
+    "keywords": ["React Native", "Node.js", "MongoDB", "mobile app", "public transport", "QR code", "cashless ticketing"],
     "projectName": "EasyTravel",
     "summary": "A react native application showcasing the functionality of a cashless online ticketing system for daily public transport.",
     "description": "Easy Travel is a mobile application developed using React Native and Node.js that enables daily commuters to experience the convenience of a cashless ticketing system for public transport. With the app, users can simply scan a QR code assigned to the bus, select their travel details, and generate a ticket with the cost of their journey. Say goodbye to the hassle of carrying cash and counting change during daily commute, and say hello to the seamless experience of Easy Travel.",
@@ -308,6 +316,7 @@
   {
     "slug": "hobbyit",
     "isFeatured": false,
+    "keywords": ["React Native", "Firebase", "Firestore", "mobile app", "social app", "community"],
     "projectName": "HobbyIt",
     "summary": "An app to connect individuals with shared interests through a user-friendly mobile interface.",
     "description": "HobbyIt is a mobile application developed with React Native that connects individuals sharing similar interests, thus fostering a sense of community among them. The app utilizes the powerful features of Firebase such as Cloud Firestore, Auth, and Cloud Storage for seamless backend management. HobbyIt empowers users to effortlessly find and interact with like-minded individuals, opening up new avenues for personal growth and meaningful connections.",
@@ -336,6 +345,7 @@
   {
     "slug": "iclog",
     "isFeatured": false,
+    "keywords": ["Python", "PyQT5", "MySQL", "desktop app", "lab management", "inventory"],
     "projectName": "ICLog",
     "summary": "A PyQT5-based desktop application for managing lab components with a user-friendly GUI.",
     "description": "ICLog is a sophisticated desktop application consisting of a student panel and admin panel, meticulously crafted using PyQT5 to simplify the management of lab components. Using the student panel, students can request lab components from available stock, while the admin panel allows in-charges to approve or reject requests, view transaction history, and track pending transactions. All relevant user details, component information, and transaction records are securely managed by a MySQL database.",

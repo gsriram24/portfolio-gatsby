@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'G Sriram',
+    title: 'G Sriram | Fullstack Software Engineer',
     description:
-      'Personal Developer Portfolio for G Sriram. Check out my Projects and Skills in this website.',
+      'Fullstack Software Engineer (SDE-III) at GoHighLevel. Specializing in Vue.js, React, Node.js, and NestJS — building large-scale SaaS products, AI-powered features, and SEO tooling.',
     author: 'G Sriram',
     siteUrl: `https://www.gsriram.dev/`,
   },

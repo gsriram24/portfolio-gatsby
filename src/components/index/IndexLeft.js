@@ -9,10 +9,12 @@ const IndexLeft = () => {
     title2: 'Sriram',
     body: (
       <span>
-        I am an experienced Software and Frontend Developer with a focus on
-        delivering high-quality user experiences. This website gives a glimpse
-        into my work demonstrating various skills that I have picked up through
-        my never ending journey of learning new tools and technologies.
+        I'm a Fullstack Software Engineer currently working as an SDE-III at
+        GoHighLevel, where I build large-scale SaaS features across the Funnels
+        &amp; Websites platform — from Ecommerce and AI-powered page builders to
+        SEO tooling. I work across the stack with Vue.js, Nuxt.js, Node.js, and
+        NestJS, and I care deeply about product quality, engineering ownership,
+        and building things that actually move the needle.
       </span>
     ),
   };
