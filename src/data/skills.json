@@ -6,8 +6,18 @@
   },
   {
     "title": "Frontend Frameworks",
-    "skills": ["React", "Tailwind CSS", "Gatsby", "Redux", "Material UI"],
+    "skills": ["React", "Vue.js", "Nuxt.js", "Next.js", "Tailwind CSS"],
     "icon": "../images/skills/react.png"
+  },
+  {
+    "title": "Backend Development Frameworks",
+    "skills": ["Node.js", "NestJS", "Express.js", "Mongoose", "GraphQL"],
+    "icon": "../images/skills/node.png"
+  },
+  {
+    "title": "LLM and AI-Assisted Development",
+    "skills": ["Claude", "Cursor", "LangChain", "OpenAI API"],
+    "icon": "../images/skills/ai.png"
   },
   {
     "title": "Cross Platform App Development",
@@ -18,15 +28,5 @@
     "title": "Python",
     "skills": ["Python 3", "Pandas", "Matplotlib", "Seaborn"],
     "icon": "../images/skills/python.png"
-  },
-  {
-    "title": "Backend Development Frameworks",
-    "skills": ["Node.js", "Express.js", "Mongoose", "GraphQL"],
-    "icon": "../images/skills/node.png"
-  },
-  {
-    "title": "Machine Learning and Deep Learning",
-    "skills": ["Scikit-Learn", "Tensorflow", "Keras", "Numpy"],
-    "icon": "../images/skills/tensorflow.png"
   }
 ]

@@ -5,12 +5,12 @@
     "summary": "Currently working as a Software Development Engineer - III at GoHighLevel, building large-scale features across the Funnels & Websites Builder, Ecommerce platform, and AI products.",
     "description": "At HighLevel (all-in-one marketing CRM), I have contributed across the full breadth of the Funnels & Websites platform — from building out the Ecommerce suite end-to-end, to architecting the Schema Markup product and leading frontend development on the Page Builder AI Copilot. My work spans product architecture, full-stack feature development, testing infrastructure, release management, and mentorship.",
     "duration": "DECEMBER 2023 - PRESENT",
-    "keyFocus": "Vue.js, Nuxt.js, NodeJS, NestJS, TailwindCSS, GCP, Jenkins",
+    "keyFocus": "Vue.js, Nuxt.js, NodeJS, NestJS, TailwindCSS, GCP, Jenkins, LangChain.js, OpenAI, Playwright, Vitest, Cursor, Claude",
     "workExperience": [
       {
         "title": "Software Development Engineer - III",
         "duration": "JUNE 2025 - PRESENT",
-        "description": "Promoted to SDE-III, taking on broader ownership across the Funnels & Websites platform. Architected and built the Schema Markup product end-to-end and served as the primary frontend contributor on the Page Builder AI Copilot (Ask AI). Beyond feature development, established the unit testing framework for the funnels and page-builder codebases, designed a TDD-first registry-driven E2E suite for Schema Markup covering 19 schema families and 167 types. Took ownership of release management by leading Jenkins deployments across beta and production. Mentored new joiners through tech onboarding, delivered knowledge transfers across the Funnels and Schema Markup stacks, and participated in the interview loop."
+        "description": "Promoted to SDE-III, taking on broader ownership across the Funnels & Websites platform. Architected and built the Schema Markup product end-to-end and served as the primary frontend contributor on the Page Builder AI Copilot (Ask AI). Beyond feature development, established the unit testing framework for the funnels and page-builder codebases, designed a TDD-first registry-driven E2E suite for Schema Markup covering 19 schema families and 167 types. Took ownership of release management by leading Jenkins deployments across beta and production. Mentored new joiners through tech onboarding, delivered knowledge transfers across the Funnels and Schema Markup stacks, and participated in the interview loop. Leveraged AI-assisted development extensively (Cursor, Claude) as a force multiplier — a meaningful driver of throughput across the cross-repo scope of this role."
       },
       {
         "title": "Software Development Engineer - II",
