@@ -9,6 +9,7 @@ import { graphql } from 'gatsby';
 export const query = graphql`
   query ($slug: String!) {
     workExperienceJson(slug: { eq: $slug }) {
+      slug
       keywords
       workExperience {
         title
@@ -43,12 +44,39 @@ export const query = graphql`
 const WorkExperiencePage = ({
   data: { workExperienceJson: workExperience },
 }) => {
+  const pageUrl = `https://www.gsriram.dev/experience/${workExperience.slug}/`;
+  const webPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${pageUrl}#webpage`,
+    url: pageUrl,
+    name: `${workExperience.companyName} | Work Experience | G Sriram`,
+    isPartOf: { '@id': 'https://www.gsriram.dev/#website' },
+    breadcrumb: {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://www.gsriram.dev/',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: workExperience.companyName,
+          item: pageUrl,
+        },
+      ],
+    },
+  };
   return (
     <>
       <SEO
         title={`${workExperience.companyName} | Work Experience | G Sriram`}
         description={workExperience.description}
         keywords={workExperience.keywords}
+        schema={[webPageSchema]}
       />
       <Layout
         left={<WorkExperienceLeft workExperience={workExperience} />}

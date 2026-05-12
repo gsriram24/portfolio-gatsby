@@ -20,11 +20,23 @@ export const query = graphql`
     }
   }
 `;
+const profilePageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfilePage',
+  '@id': 'https://www.gsriram.dev/#profilepage',
+  url: 'https://www.gsriram.dev/',
+  name: 'G Sriram | Fullstack Software Engineer',
+  dateCreated: '2021-01-01',
+  dateModified: '2026-05-12',
+  isPartOf: { '@id': 'https://www.gsriram.dev/#website' },
+  mainEntity: { '@id': 'https://www.gsriram.dev/#person' },
+};
+
 const Home = ({ data }) => {
   const projects = data.allProjectsJson.edges;
   return (
     <>
-      <SEO />
+      <SEO schema={[profilePageSchema]} />
       <Layout left={<IndexLeft />} right={<IndexRight projects={projects} />} />
     </>
   );
