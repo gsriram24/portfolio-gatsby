@@ -40,7 +40,7 @@ const WorkExperienceRight = ({
                   awards?.length ||
                   otherResponsibilities?.length
                     ? ''
-                    : 'lg:h-screen'
+                    : 'lg:min-h-screen'
                 }`}
                 id="experience"
               >
@@ -60,7 +60,7 @@ const WorkExperienceRight = ({
                 className={`pt-16 ${
                   awards?.length || otherResponsibilities?.length
                     ? ''
-                    : 'lg:h-screen'
+                    : 'lg:min-h-screen'
                 }`}
                 id="projects"
               >
@@ -139,7 +139,7 @@ const WorkExperienceRight = ({
             {awards?.length && (
               <div
                 className={`pt-16 ${
-                  otherResponsibilities?.length ? '' : 'lg:h-screen'
+                  otherResponsibilities?.length ? '' : 'lg:min-h-screen'
                 }`}
                 id="awards"
               >
@@ -155,7 +155,7 @@ const WorkExperienceRight = ({
               </div>
             )}
             {otherResponsibilities?.length && (
-              <div className="pt-16 lg:h-screen" id="other">
+              <div className="pt-16 lg:min-h-screen" id="other">
                 {otherResponsibilities?.map(responsibility => (
                   <GenericTile
                     key={responsibility.title}
